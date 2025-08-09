@@ -1,0 +1,91 @@
+# 封禁界面（玩家可见）
+banScreen: |-
+  §f[§bMineGuard§f]
+  §7你已被§c永久封禁§7
+  §7我们检测到你可能使用了§c第三方修改客户端§7
+
+kickScreen: |-
+  §f[§bMineGuard§f]
+  §7你已被移出服务器
+  §7我们检测到你可能使用了§c第三方修改客户端§7
+
+brandKickScreen: |-
+  §f[§bMineGuard§f]
+  §7连接失败
+  §c此客户端类型不被允许
+
+# 检测与警告消息
+flagMessage: "§9%player%§f 触发了§b %specificCheck%§f检测 (§9%checkArt%§f) 可疑值:§c %flags%"
+flagRemoveMessage: "§9%player%§f 的可疑值已降低"
+staffMessage: "玩家 §9%player%§f 行为异常，请检查。"
+playerBanMessage: "玩家 §9%player%§f 已被§c永久封禁§f。"
+playerUnBanMessage: "玩家 §9%player%§f 已被§a解封§f。"
+playerKickMessage: "玩家 §9%player%§f 已被移出服务器。"
+playerMessage: "§c请关闭所有第三方修改客户端或模组。"
+
+# 命令反馈
+noArgsMessage: "§c请使用§9 /MineGuard Help§f。"
+configReloaded: "§a配置已重载成功。"
+noSuspects: "§c未发现可疑玩家。"
+openingMenu: "§b正在打开菜单..."
+onlyPlayers: "§c只有玩家可以执行此命令。"
+playerOffline: "§c目标玩家不在线。"
+alreadyBanned: "§c该玩家已被封禁。"
+notBanned: "§c该玩家未被封禁。"
+notSuspicious: "§c该玩家未被标记为可疑。"
+noPermission: "§c你没有权限。"
+staffAlertsDisabled: "§c操作失败：管理通知已关闭。"
+debugEnabled: "§a已开启检测通知。"
+debugDisabled: "§c已关闭检测通知。"
+invalidUUID: "§7无效的UUID: §c%uuid%"
+suspicionRemoved: "§a已移除玩家 §9%player%§f 的可疑标记。"
+
+# 玩家信息界面
+suspiciousPlayersTitle: "§c§l可疑玩家列表:"
+playerStatusSuspicious: "§f状态:§c 异常"
+playerStatusNormal: "§f状态:§a 正常"
+playerInfoTitle: "§b§l玩家 §9§l%player%§b 的信息"
+playerInfoPing: "§f延迟: §b%ping%ms"
+playerInfoClient: "§f客户端类型: §b%brand%"
+playerInfoClientNone: "§f客户端类型: §c未知"
+playerInfoLocation: "§f位置: §b%world% §f(X: §b%x%§f, Y: §b%y%§f, Z: §b%z%§f)"
+playerInfoFlags: "§f可疑值: §c%flags%"
+playerInfoLastFlag: "§f最后触发: §c%date%"
+
+# 帮助菜单
+helpMenu: "§9/MineGuard Menu§f »§b 打开设置菜单"
+helpDebug: "§9/MineGuard Debug§f »§b 显示检测到的异常玩家"
+helpInfo: "§9/MineGuard Info§f »§b 查看玩家详细信息"
+helpBan: "§9/MineGuard Ban§f »§b 永久封禁玩家"
+helpUnban: "§9/MineGuard UnBan§f »§b 解封玩家"
+helpList: "§9/MineGuard List§f »§b 列出可疑玩家"
+helpListRemove: "§9/MineGuard List Remove <玩家>§f »§b 从可疑列表中移除玩家"
+
+# 系统操作反馈
+staffKickedBrandMessage: "§9%player%§7 因客户端类型(§b%brand%§7)被移出服务器。"
+queueEnabled: "§a已启用§f §9排队系统§f。"
+queueDisabled: "§c已禁用§f §9排队系统§f。"
+movementCancelEnabled: "§a已启用§f 位置重置功能。"
+movementCancelDisabled: "§c已禁用§f 位置重置功能。"
+punishmentSet: "惩罚方式已设置为 §9%punishment%§a。"
+flagCountIncreased: "§9可疑阈值§a已上调§f。"
+flagCountDecreased: "§9可疑阈值§c已下调§f。"
+flagCountMinReached: "§c已达最低可疑阈值。"
+checkDisabled: "检测项 §9%checkName%§c 已关闭。"
+checkEnabled: "检测项 §9%checkName%§a 已开启。"
+allChecksDeactivated: "§c已关闭所有检测项。"
+allChecksActivated: "§a已开启所有检测项。"
+staffNotificationsEnabled: "§a已开启§f 管理聊天通知。"
+staffNotificationsDisabled: "§c已关闭§f 管理聊天通知。"
+playerNotificationsEnabled: "§a已开启§f 玩家聊天通知。"
+playerNotificationsDisabled: "§c已关闭§f 玩家聊天通知。"
+staffSoundsEnabled: "§a已开启§f 管理提示音效。"
+staffSoundsDisabled: "§c已关闭§f 管理提示音效。"
+playerSoundsEnabled: "§a已开启§f 玩家提示音效。"
+playerSoundsDisabled: "§c已关闭§f 玩家提示音效。"
+teamNotificationsDisabled: "§c无法修改：管理通知已全局关闭。"
+playerNotificationsDisabledMsg: "§c无法修改：玩家通知已全局关闭。"
+
+# 推广链接
+reviewMessage: "§e§l点击此处为MineGuard评分（SpigotMC），感谢支持！"
+discordMessage: "§e§l点击加入MineGuard官方Discord"

@@ -1,0 +1,65 @@
+on every tick:
+	set {load_chunk} to 0
+
+on chunk load:
+	# 获取区块信息
+	set {_world} to event-chunk's world
+	if {load_chunk} <= 50:
+		if {_world} is "level0":
+			set {_x} to chunk x of event-chunk
+			set {_z} to chunk z of event-chunk
+			
+			# 计算目标位置（区块左下角坐标）
+			set {_target_x} to {_x} * 16
+			set {_target_z} to {_z} * 16
+			set {_target_loc} to location({_target_x}, -61, {_target_z}, {_world})
+			
+			# 检查目标位置是否是草方块（判断是否已生成地形）
+			if block at {_target_loc} is grass block:
+				# 执行地形生成命令
+				execute console command "execute in level0 run clone 0 -54 0 15 -48 15 %{_target_x}% -61 %{_target_z}%"
+				
+				set {_temp} to random integer between 1 and 10
+				set {_temp2} to 0
+				
+				while {_temp2} < {_temp}:
+					set {_temp3} to random integer between 0 and 2
+					set {_random_x} to random integer between 0 and 15
+					set {_random_z} to random integer between 0 and 15
+					set {_random_x} to {_random_x} + {_target_x}
+					set {_random_z} to {_random_z} + {_target_z}
+					if {_temp3} is 0:
+						execute console command "execute in level0 run clone 16 -54 0 16 -50 8 %{_random_x}% -60 %{_random_z}%"
+					else if {_temp3} is 1:
+						execute console command "execute in level0 run clone 5 -54 -1 15 -50 -1 %{_random_x}% -60 %{_random_z}%"
+					else if {_temp3} is 2:
+						execute console command "execute in level0 run clone 7 -54 -11 15 -50 -3 %{_random_x}% -60 %{_random_z}%"
+					set {_temp2} to {_temp2} + 1
+				
+				# 调试信息（可选）
+				send action bar "已生成区块: [%{_x}%, %{_z}%]" to ops
+				set {load_chunk} to {load_chunk} + 1
+			else if block at {_target_loc} is air:
+				# 执行地形生成命令
+				execute console command "execute in level0 run clone 0 -54 0 15 -48 15 %{_target_x}% -61 %{_target_z}%"
+				
+				set {_temp} to random integer between 1 and 10
+				set {_temp2} to 0
+				
+				while {_temp2} < {_temp}:
+					set {_temp3} to random integer between 0 and 2
+					set {_random_x} to random integer between 0 and 15
+					set {_random_z} to random integer between 0 and 15
+					set {_random_x} to {_random_x} + {_target_x}
+					set {_random_z} to {_random_z} + {_target_z}
+					if {_temp3} is 0:
+						execute console command "execute in level0 run clone 16 -54 0 16 -50 8 %{_random_x}% -60 %{_random_z}%"
+					else if {_temp3} is 1:
+						execute console command "execute in level0 run clone 5 -54 -1 15 -50 -1 %{_random_x}% -60 %{_random_z}%"
+					else if {_temp3} is 2:
+						execute console command "execute in level0 run clone 7 -54 -11 15 -50 -3 %{_random_x}% -60 %{_random_z}%"
+					set {_temp2} to {_temp2} + 1
+				
+				# 调试信息（可选）
+				send action bar "已生成区块: [%{_x}%, %{_z}%]" to ops
+				set {load_chunk} to {load_chunk} + 1

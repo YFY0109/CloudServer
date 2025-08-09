@@ -1,0 +1,76 @@
+command /cd:
+	trigger:
+		send "&a你打开了菜单" to player
+
+command /ch <text> <text> [text]: # 在此之后一个缩进的内容是声明命令的属性
+	usage: 用法: /ch set <玩家名> <称号> 或 /ch remove <玩家名>
+	permission: ch.admin
+	permission message: 你无权设置或移除称号, 需要权限ch.admin
+	trigger:
+		set {_cmd} to the full command
+		# 分割命令
+		set {_parts::*} to split {_cmd} by " "
+		set {_count} to size of {_parts::*}
+		if player is op:
+			# 确保至少有第二个参数
+			if {_count} >= 2:
+				set {_secondArg} to {_parts::2}
+				
+				# 处理set子命令
+				if {_secondArg} is "set":
+					# 确保参数数量足够
+					if {_count} >= 4:
+						set {_targetPlayerName} to {_parts::3}
+						set {_targetPlayer} to player({_targetPlayerName})
+						
+						# 检查目标玩家是否存在
+						if {_targetPlayer} is not set:
+							send "&c错误: 玩家 %{_targetPlayerName}% 不存在!" to player
+							stop
+						
+						# 获取目标玩家的UUID
+						set {_uuid} to uuid of {_targetPlayer}
+						set {_valueStr} to {_parts::4}
+						replace "&" with "§" in {_valueStr}
+						replace "+" with " " in {_valueStr}
+						
+						# 保存数据到变量a（持久化存储）
+						set {a::%{_uuid}%} to {_valueStr}
+						send "&a成功设置玩家 %{_targetPlayerName}% 的数据为:&r %{_valueStr}%" to player
+					else:
+						send "&c用法错误: /ch set <玩家名> <值...>" to player
+				
+				# 处理remove子命令
+				else if {_secondArg} is "remove":
+					# 确保参数数量足够
+					if {_count} >= 3:
+						set {_targetPlayerName} to {_parts::3}
+						set {_targetPlayer} to player({_targetPlayerName})
+						
+						# 检查目标玩家是否存在
+						if {_targetPlayer} is not set:
+							send "&c错误: 玩家 %{_targetPlayerName}% 不存在!" to player
+							stop
+						
+						# 获取目标玩家的UUID并删除对应数据
+						set {_uuid} to uuid of {_targetPlayer}
+						delete {a::%{_uuid}%}
+						send "&a成功删除玩家 %{_targetPlayerName}% 的数据" to player
+					else:
+						send "&c用法错误: /ch remove <玩家名>" to player
+				
+				# 处理未知子命令
+				else:
+					send "&c未知命令! 可用子命令: set, remove" to player
+			else:
+				send "&c用法错误: /ch <set|remove> <玩家名> [参数...]" to player
+		else:
+			# 非OP玩家提示无权限
+			send "&c你没有权限执行此命令!" to player
+
+
+on chat:
+	if {a::%uuid of player%} is set:
+		set chat format to "%{a::%uuid of player%}%[player]&f &l&7››&r [message]"
+	else:
+		set chat format to "[ &7萌新&r ] [player] &l&7››&r [message]"

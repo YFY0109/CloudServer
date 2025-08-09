@@ -1,0 +1,138 @@
+Messages:
+  1:
+    LeaveMessage: 正在离开%residence
+    EnterMessage: 欢迎%player来到%owner的领地%residence
+Flags:
+  1:
+    container: true
+    ignite: true
+    move: true
+    harvest: true
+    shear: true
+    use: true
+    destroy: true
+    animalkilling: true
+    trade: true
+    mobkilling: true
+    build: true
+    vehicledestroy: true
+    leash: true
+  2:
+    container: true
+    bed: true
+    note: true
+    door: true
+    egg: true
+    use: true
+    anvil: true
+    admin: true
+    riding: true
+    nametag: true
+    animalkilling: true
+    button: true
+    bank: true
+    honey: true
+    cake: true
+    goathorn: true
+    copper: true
+    place: true
+    itempickup: true
+    subzone: true
+    table: true
+    brush: true
+    chorustp: true
+    move: true
+    harvest: true
+    shear: true
+    destroy: true
+    pressure: true
+    lever: true
+    brew: true
+    enderpearl: true
+    dye: true
+    honeycomb: true
+    beacon: true
+    trade: true
+    mobkilling: true
+    itemdrop: true
+    build: true
+    chat: true
+    flowerpot: true
+    enchant: true
+    anchor: true
+    diode: true
+    tp: true
+    leash: true
+  3:
+    container: false
+    ignite: false
+    harvest: false
+    shear: false
+    nanimals: false
+    firespread: false
+    use: false
+    destroy: false
+    pvp: false
+    animalkilling: false
+    nomobs: true
+    hook: false
+    build: false
+    explode: false
+    cmonsters: false
+    vehicledestroy: false
+    skulk: false
+    tnt: false
+    nmonsters: false
+    tp: false
+    pistonprotection: true
+    leash: false
+    smonsters: false
+    creeper: false
+  4:
+    container: false
+    ignite: false
+    harvest: false
+    shear: false
+    firespread: false
+    use: false
+    destroy: false
+    pvp: false
+    animalkilling: false
+    hook: false
+    build: false
+    explode: false
+    vehicledestroy: false
+    skulk: false
+    tnt: false
+    leash: false
+    pistonprotection: true
+    tp: false
+    creeper: false
+Residences:
+  End_Home:
+    TPLoc: 371107.43:64.0:36.62:9.97:135.05
+    Messages: 1
+    BlockSellPrice: 0.75
+    Permissions:
+      PlayerFlags:
+        42361e41-01b4-38ce-96d9-ef63929090b1: 1
+        8ba4534a-b2aa-3dce-8379-485d07e0e671: 2
+      AreaFlags: 3
+      OwnerUUID: 42361e41-01b4-38ce-96d9-ef63929090b1
+      OwnerLastKnownName: Guxiaoge
+    CreatedOn: 1754211763606
+    Areas:
+      main: 370758:57:-254:371113:200:42
+  kkk:
+    TPLoc: 257.07:1.0:35.24:-38.7:-116.7
+    Messages: 1
+    BlockSellPrice: 0.75
+    Permissions:
+      PlayerFlags:
+        bd7e4998-371e-3dbb-bf61-0299e6fd2438: 1
+      AreaFlags: 4
+      OwnerUUID: bd7e4998-371e-3dbb-bf61-0299e6fd2438
+      OwnerLastKnownName: ncpop
+    CreatedOn: 1754304516691
+    Areas:
+      main: 253:0:34:259:4:40

@@ -1,0 +1,88 @@
+menu-settings:
+  name: 'Clou&7dSer&8ver'
+  rows: 6
+  commands:
+    - cd
+  open-with-item:
+    id: clock
+    item-id: clock
+    left-click: false
+    right-click: true
+item-1-1:
+  POSITION-X: 1
+  POSITION-Y: 1
+  ACTIONS:
+    - spawn
+  NAME: '&b主城'
+  LORE:
+    - '&e点击前往主城'
+  MATERIAL: bookshelf
+  AMOUNT: 1
+  KEEP-OPEN: false
+item-2-1:
+  POSITION-X: 2
+  POSITION-Y: 1
+  ACTIONS:
+    - back
+  NAME: '&c返回&l死亡点'
+  LORE:
+    - '&e返回上次死亡的地方'
+    - '&c&l没死别点'
+  MATERIAL: magenta_glazed_terracotta
+  AMOUNT: 1
+  KEEP-OPEN: false
+item-1-2:
+  POSITION-X: 1
+  POSITION-Y: 2
+  ACTIONS:
+    - rw tp
+  NAME: '&e前往资源世界（主世界）'
+  LORE:
+    - '&e前往&l资源世界&r&e（主世界）'
+  MATERIAL: podzol
+  AMOUNT: 1
+  KEEP-OPEN: false
+item-2-2:
+  POSITION-X: 2
+  POSITION-Y: 2
+  ACTIONS:
+    - rw tp nether
+  NAME: '&4前往资源世界（下界）'
+  LORE:
+    - '&4前往&l资源世界&r&4（下界）'
+  MATERIAL: netherrack
+  AMOUNT: 1
+  KEEP-OPEN: false
+item-3-2:
+  POSITION-X: 3
+  POSITION-Y: 2
+  ACTIONS:
+    - rw tp end
+  NAME: '&b前往资源世界（末地）'
+  LORE:
+    - '&b前往&l资源世界&r&b（末地）'
+  MATERIAL: end_stone
+  AMOUNT: 1
+  KEEP-OPEN: false
+item-9-1:
+  POSITION-X: 9
+  POSITION-Y: 1
+  ACTIONS:
+    - signin gui
+  NAME: '&e签到'
+  LORE:
+    - '&e点我进入签到页面~'
+  MATERIAL: clock
+  AMOUNT: 1
+  KEEP-OPEN: false
+item-4-2:
+  POSITION-X: 4
+  POSITION-Y: 2
+  ACTIONS:
+    - op:mvtp world
+  NAME: '&a前往主世界'
+  LORE:
+    - '&a前往&l主世界'
+  MATERIAL: grass_block
+  AMOUNT: 1
+  KEEP-OPEN: false

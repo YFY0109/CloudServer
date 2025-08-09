@@ -1,0 +1,108 @@
+# Ban screen (Apariencia)
+banScreen: |-
+  §f[§bMineGuard§f]
+  
+  §7Has sido §cbaneado permanentemente§7 de la red.
+  
+  §7Sospechamos que estás usando§c modificaciones del cliente (software de terceros).
+
+# Kick screen (Apariencia)
+kickScreen: |-
+  §f[§bMineGuard§f]
+
+  §7Has sido expulsado de la red.
+
+  §7Sospechamos que estás usando§c modificaciones del cliente (software de terceros).
+
+# Brand kick screen (Apariencia)
+brandKickScreen: |-
+  §f[§bMineGuard§f]
+  
+  §7Conexión fallida
+  
+  §cEste cliente de Minecraft no está permitido.
+
+# Mensaje cuando un jugador es marcado (Apariencia)
+flagMessage: "§9%player%§f falló en§b %specificCheck%§f (§9%checkArt%§f) Flags:§c %flags%"
+
+# Si se le quita una marca al jugador
+flagRemoveMessage: "§9%player%§f eliminó una marca."
+
+# Mensaje si un jugador es sospechoso (Apariencia)
+staffMessage: "El jugador§9 %player%§f parece sospechoso."
+
+# Mensaje cuando un jugador es baneado
+playerBanMessage: "El jugador§9 %player%§f ha sido §cbaneado permanentemente§f de la red."
+
+# Mensaje cuando un jugador es desbaneado
+playerUnBanMessage: "Jugador§9 %player%§f fue §adesbaneado§f en el servidor."
+
+# Mensaje cuando un jugador es expulsado
+playerKickMessage: "El jugador§9 %player%§f ha sido expulsado de la red."
+
+# Mensaje (Apariencia)
+playerMessage: "§cPor favor, desactiva cualquier modificación del cliente (software de terceros)."
+
+# Mensajes de comandos de MineGuard
+noArgsMessage: "§cPor favor usa§9 /MineGuard Help§f."
+configReloaded: "§aHas cargado la configuración correctamente."
+noSuspects: "§cNo se encontraron jugadores sospechosos."
+openingMenu: "§bAbriendo menú..."
+onlyPlayers: "§cSolo los jugadores pueden usar este comando."
+playerOffline: "§cEl jugador está desconectado."
+alreadyBanned: "§cEste jugador ya está baneado."
+notBanned: "§cEste jugador no está baneado."
+notSuspicious: "§cEste jugador no está marcado como sospechoso."
+noPermission: "§cNo tienes permiso."
+staffAlertsDisabled: "§cError. Las alertas de staff están desactivadas."
+debugEnabled: "§aAhora verás notificaciones de flags."
+debugDisabled: "§cYa no verás notificaciones de flags."
+invalidUUID: "§7UUID inválida: §c%uuid%"
+suspicionRemoved: "§fHas eliminado la entrada de sospecha para§9 %player%§f."
+suspiciousPlayersTitle: "§c§lJugadores sospechosos:"
+playerStatusSuspicious: "§fEstado del jugador:§c sospechoso"
+playerStatusNormal: "§fEstado del jugador:§a normal"
+playerInfoTitle: "§b§lInformación de §9§l%player%"
+playerInfoPing: "§fPing§f: §b%ping%ms"
+playerInfoClient: "§fMarca del cliente§f: §b%brand%"
+playerInfoClientNone: "§fMarca del cliente§f: §c-"
+playerInfoLocation: "§fUbicación§f: §b%world% §f(X: §b%x%§f, Y: §b%y%§f, Z: §b%z%§f)"
+playerInfoFlags: "§fFlags§f: §c%flags%"
+playerInfoLastFlag: "§fÚltima flag§f: §c%date%"
+
+# Comandos de ayuda de MineGuard
+helpMenu: "§9/MineGuard Menú§f »§b Abre la configuración"
+helpDebug: "§9/MineGuard Debug§f »§b Muestra jugadores marcados"
+helpInfo: "§9/MineGuard Info§f »§b Muestra información de un jugador"
+helpBan: "§9/MineGuard Ban§f »§b Banea permanentemente a un jugador"
+helpUnban: "§9/MineGuard UnBan§f »§b Desbanea a un jugador"
+helpList: "§9/MineGuard List§f »§b Muestra jugadores sospechosos"
+helpListRemove: "§9-> /MineGuard List Remove <Jugador>§f »§b Elimina un jugador de la lista de sospechosos"
+
+# GUI
+staffKickedBrandMessage: "§9%player%§7 fue expulsado del servidor debido a su marca de cliente (§b%brand%§7)."
+queueEnabled: "§fHas §aactivado§f el sistema de§9 cola§f."
+queueDisabled: "§fHas §cdesactivado§f el sistema de§9 cola§f."
+movementCancelEnabled: "Has §aactivado§f el reinicio de posición."
+movementCancelDisabled: "Has §cdesactivado§f el reinicio de posición."
+punishmentSet: "Castigo establecido a §9%punishment%§a."
+flagCountIncreased: "§9Cantidad de flags§a aumentada§f."
+flagCountDecreased: "§9Cantidad de flags§c disminuida§f."
+flagCountMinReached: "§cSe alcanzó la cantidad mínima de flags."
+checkDisabled: "Check §9%checkName%§c desactivado."
+checkEnabled: "Check §9%checkName%§a activado."
+allChecksDeactivated: "§cHas desactivado todos los checks."
+allChecksActivated: "§aHas activado todos los checks."
+staffNotificationsEnabled: "§fNotificaciones de chat del equipo §aactivadas§f."
+staffNotificationsDisabled: "§fNotificaciones de chat del equipo §cdesactivadas§f."
+playerNotificationsEnabled: "§fNotificaciones de chat del jugador §aactivadas§f."
+playerNotificationsDisabled: "§fNotificaciones de chat del jugador §cdesactivadas§f."
+staffSoundsEnabled: "§fSonidos del equipo §aactivados§f."
+staffSoundsDisabled: "§fSonidos del equipo §cdesactivados§f."
+playerSoundsEnabled: "§fSonidos del jugador §aactivados§f."
+playerSoundsDisabled: "§fSonidos del jugador §cdesactivados§f."
+teamNotificationsDisabled: "§cNo se puede cambiar esta configuración. Las notificaciones del equipo están desactivadas."
+playerNotificationsDisabledMsg: "§cNo se puede cambiar esta configuración. Las notificaciones de jugadores están desactivadas."
+
+reviewMessage: "§e§lHaz clic en mí si quieres valorar MineGuard en SpigotMC. Me alegraría mucho."
+discordMessage: "§e§lHaz clic en mí si quieres unirte al Discord de MineGuard."

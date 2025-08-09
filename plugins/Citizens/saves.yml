@@ -1,0 +1,4610 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 5
+npc:
+  '0':
+    metadata:
+      cached-skin-uuid: 793b13c6-2475-4dd8-abf8-304023818abc
+      cached-skin-uuid-name: 7317f2f5-7e89-4173-b31f-a32f7fb829dc
+    name: 商店老板
+    uuid: f451d364-74be-4dda-91ca-ccb99601051b
+    traits:
+      commandtrait:
+        hideErrorMessages: true
+        persistSequence: true
+        commands:
+          '0':
+            command: execute in minecraft:spawn run tp @s -21.71 -14.00 -28.64 -6544.73
+              3.00
+            hand: LEFT
+            player: true
+            npc: false
+            op: true
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            gn: -1
+            delay: 0
+            cost: -1.0
+            experienceCost: -1
+        cooldowns:
+          c1efefaa-7722-3f2c-98a2-44062254ecdb:
+            lastUsedHand: LEFT
+            lastUsedId: 0
+          42361e41-01b4-38ce-96d9-ef63929090b1:
+            lastUsedHand: LEFT
+            lastUsedId: 0
+          eaefa64a-b67a-333c-bd6d-dab28f5874bd:
+            lastUsedHand: LEFT
+            lastUsedId: 0
+          824b9e66-7436-303a-8177-3ccf358be40b:
+            lastUsedHand: LEFT
+            lastUsedId: 0
+          56348dc1-589e-3b6c-a796-b4e9b52ebe2a:
+            lastUsedHand: LEFT
+            lastUsedId: 0
+          15a99c7e-7123-38c8-983c-94deaf23e960:
+            lastUsedHand: LEFT
+            lastUsedId: 0
+          bd7e4998-371e-3dbb-bf61-0299e6fd2438:
+            lastUsedHand: LEFT
+            lastUsedId: 0
+      attributetrait:
+        attributes:
+          WAYPOINT_TRANSMIT_RANGE: 0.0
+      skintrait:
+        signature: ifKW3/dHK38DBTWjF4XUlgkE/IJAtcT8dGFAZtaHmuDG1URoI9S2hCfl/onKqj7jBx6Hc+VJxZ89pvatCeOcnzIIKLCs9VeDD3DX0VfhWhjzK00TTDPzlARR4mjRXQouU5NpEb4SI+POuQbsUs2fNnJBGUG2s41MkCpxJiE88luqDk4gVYuaKuagYuOnrv8qOSsnhAdZRNvJvX2horsXAT72KUzbZTC2O9/0eDl12Z5o5gKsV/2lL7S8GJOp0XO4W9TgrzBHjSeLDUfqs4A3qHJm0AAP15K/GcL53PNxEtXpn8XnJo3T9674vWgaOl4GC9h6ypgx+z0oMkN6B/f1wM+DXeI1MqgpgVIUkiowuoBEh/A5OR96uRxuCXByCpXMfRbO4tCwVNVxPyroQgYCPlhFRwC5+SKgTnHOGkv5MK+ojppqjU0dobiQVgZADREs1utcGc+c4gNxDdF1zQVpqJ6cWE1/9QVKfO6Ze6gDAFKOPym7Ixl6tLReHE1CwvgCujSViPKSF/km2SWEhTQCFICujpxOScAcoBOrLha5K5wVVhlBL5GPYW4FDJcnDV03e/L/UtBDHGNLaTdewFfZi2Vx+hDZcV1bHAhb3Ks7mwu3gd/5Pzafbnkq0xXvLiCbflIfBzeLgwr/VxCE+dzzXlazoeeF3c2+SURdviSdOI4=
+        skinName: 7317f2f5-7e89-4173-b31f-a32f7fb829dc
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY0NDYzMzIxNDU5MCwKICAicHJvZmlsZUlkIiA6ICIzYWJkYjI5ZDI2MTU0YTAxOWEzZWQ3OGRlMzI4OWUxNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJFcmljSHViZXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODAzOTcyZjc1MGFhNTk0MjQ4YjkwM2JiMDdlY2RjMGFhMWRlZjkzMjA1NzdiOTRhZmI4NjlkNzc3OWRjMWE5MCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
+      skinlayers: {}
+      owner:
+        uuid: eaefa64a-b67a-333c-bd6d-dab28f5874bd
+      hologramtrait: {}
+      text:
+        random-talker: true
+        speech-bubble-duration: 100
+        speech-bubbles: true
+        text:
+          '0': 早上好~可能现在并不是早上hhh，我一直坐在这里，看不到外面。如果有什么东西要买的话，一定不要错过我的商店~
+          '1': 有什么需要吗？
+          '2': 来我的商店看看吧，左键我我就能带你过去~
+          '3': 你听说了吗............我的商店有超级多物美价廉的东西！！！
+          '4': （哈欠）瞧一瞧看一看，走过路过不要错过...
+          '5': 你吃了吗？没吃的话可以来我这买点面包或者牛排（笑）~
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      type: PLAYER
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      location:
+        bodyYaw: -90.0
+        worldid: 6b862eef-df1b-494b-9c18-e32159fb7794
+        x: -0.5
+        y: 53.0
+        z: 0.5
+        yaw: -90.0
+        pitch: -81.2538
+    traitnames: owner,spawned,scoreboardtrait,rotationtrait,commandtrait,skinlayers,skintrait,lookclose,attributetrait,inventory,type,targetable,hologramtrait,location,text
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '2':
+    metadata:
+      cached-skin-uuid: 793b13c6-2475-4dd8-abf8-304023818abc
+      cached-skin-uuid-name: 7317f2f5-7e89-4173-b31f-a32f7fb829dc
+    name: 商店老板
+    uuid: a3acaf21-3620-4c18-ba53-83600191da67
+    traits:
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      skintrait:
+        signature: ifKW3/dHK38DBTWjF4XUlgkE/IJAtcT8dGFAZtaHmuDG1URoI9S2hCfl/onKqj7jBx6Hc+VJxZ89pvatCeOcnzIIKLCs9VeDD3DX0VfhWhjzK00TTDPzlARR4mjRXQouU5NpEb4SI+POuQbsUs2fNnJBGUG2s41MkCpxJiE88luqDk4gVYuaKuagYuOnrv8qOSsnhAdZRNvJvX2horsXAT72KUzbZTC2O9/0eDl12Z5o5gKsV/2lL7S8GJOp0XO4W9TgrzBHjSeLDUfqs4A3qHJm0AAP15K/GcL53PNxEtXpn8XnJo3T9674vWgaOl4GC9h6ypgx+z0oMkN6B/f1wM+DXeI1MqgpgVIUkiowuoBEh/A5OR96uRxuCXByCpXMfRbO4tCwVNVxPyroQgYCPlhFRwC5+SKgTnHOGkv5MK+ojppqjU0dobiQVgZADREs1utcGc+c4gNxDdF1zQVpqJ6cWE1/9QVKfO6Ze6gDAFKOPym7Ixl6tLReHE1CwvgCujSViPKSF/km2SWEhTQCFICujpxOScAcoBOrLha5K5wVVhlBL5GPYW4FDJcnDV03e/L/UtBDHGNLaTdewFfZi2Vx+hDZcV1bHAhb3Ks7mwu3gd/5Pzafbnkq0xXvLiCbflIfBzeLgwr/VxCE+dzzXlazoeeF3c2+SURdviSdOI4=
+        skinName: 7317f2f5-7e89-4173-b31f-a32f7fb829dc
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY0NDYzMzIxNDU5MCwKICAicHJvZmlsZUlkIiA6ICIzYWJkYjI5ZDI2MTU0YTAxOWEzZWQ3OGRlMzI4OWUxNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJFcmljSHViZXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODAzOTcyZjc1MGFhNTk0MjQ4YjkwM2JiMDdlY2RjMGFhMWRlZjkzMjA1NzdiOTRhZmI4NjlkNzc3OWRjMWE5MCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
+      owner:
+        uuid: eaefa64a-b67a-333c-bd6d-dab28f5874bd
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      text:
+        random-talker: true
+        speech-bubble-duration: 100
+        speech-bubbles: true
+        text:
+          '0': 有什么需要吗？
+          '1': 你来啦~
+          '2': 为什么我会在这里？因为在主城的是我的弟弟~
+          '3': 卖东西吗？我们高价回收很多东西哦~
+          '4': 同种物品买的比卖的贵吗？我不觉得。其他地方买的钱可是卖的钱的好几倍，我这里也就多一点而已
+          '5': 打折？emm，现在还没促销呢~
+          '6': 塑料袋？我们不提供那个东西，因为它不怎么环保。不过，你可以看看【潜影盒】，它的空间可是很大的哟（笑）~
+          '7': 为什么货架上会有骷髅头？这个...我恐怕不能回答这个问题，要不要买点东西？（笑）
+      type: PLAYER
+      attributetrait:
+        attributes:
+          WAYPOINT_TRANSMIT_RANGE: 0.0
+      location:
+        bodyYaw: -90.0
+        worldid: 6b862eef-df1b-494b-9c18-e32159fb7794
+        x: -0.5
+        y: 53.0
+        z: 0.5
+        yaw: -90.0
+        pitch: -81.2538
+    traitnames: scoreboardtrait,spawned,owner,rotationtrait,commandtrait,skinlayers,skintrait,lookclose,type,attributetrait,inventory,hologramtrait,location,text
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '3':
+    name: 路人
+    uuid: 4f5e5134-391f-4d2a-a481-7d67c869aa23
+    traits:
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      waypoints:
+        linear:
+          points:
+            '0':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -60.0
+                y: -14.0
+                z: -33.0
+                yaw: 0.0
+                pitch: 0.0
+            '1':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -60.0
+                y: -14.0
+                z: -33.0
+                yaw: 0.0
+                pitch: 0.0
+            '2':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -60.0
+                y: -14.0
+                z: -32.0
+                yaw: 0.0
+                pitch: 0.0
+            '3':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -60.0
+                y: -14.0
+                z: -31.0
+                yaw: 0.0
+                pitch: 0.0
+            '4':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -60.0
+                y: -14.0
+                z: -29.0
+                yaw: 0.0
+                pitch: 0.0
+            '5':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -60.0
+                y: -14.0
+                z: -28.0
+                yaw: 0.0
+                pitch: 0.0
+            '6':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -60.0
+                y: -14.0
+                z: -26.0
+                yaw: 0.0
+                pitch: 0.0
+            '7':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -60.0
+                y: -13.0
+                z: -25.0
+                yaw: 0.0
+                pitch: 0.0
+            '8':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -60.0
+                y: -13.0
+                z: -25.0
+                yaw: 0.0
+                pitch: 0.0
+            '9':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -60.0
+                y: -13.0
+                z: -23.0
+                yaw: 0.0
+                pitch: 0.0
+            '10':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -60.0
+                y: -12.0
+                z: -22.0
+                yaw: 0.0
+                pitch: 0.0
+            '11':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -60.0
+                y: -12.0
+                z: -21.0
+                yaw: 0.0
+                pitch: 0.0
+            '12':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -61.0
+                y: -12.0
+                z: -19.0
+                yaw: 0.0
+                pitch: 0.0
+            '13':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -62.0
+                y: -12.0
+                z: -18.0
+                yaw: 0.0
+                pitch: 0.0
+            '14':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -62.0
+                y: -12.0
+                z: -16.0
+                yaw: 0.0
+                pitch: 0.0
+            '15':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -64.0
+                y: -12.0
+                z: -16.0
+                yaw: 0.0
+                pitch: 0.0
+            '16':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -65.0
+                y: -12.0
+                z: -15.0
+                yaw: 0.0
+                pitch: 0.0
+            '17':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -66.0
+                y: -12.0
+                z: -14.0
+                yaw: 0.0
+                pitch: 0.0
+            '18':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -67.0
+                y: -11.0
+                z: -13.0
+                yaw: 0.0
+                pitch: 0.0
+            '19':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -68.0
+                y: -11.0
+                z: -13.0
+                yaw: 0.0
+                pitch: 0.0
+            '20':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -68.0
+                y: -11.0
+                z: -13.0
+                yaw: 0.0
+                pitch: 0.0
+            '21':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -71.0
+                y: -11.0
+                z: -13.0
+                yaw: 0.0
+                pitch: 0.0
+            '22':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -72.0
+                y: -11.0
+                z: -12.0
+                yaw: 0.0
+                pitch: 0.0
+            '23':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -74.0
+                y: -11.0
+                z: -12.0
+                yaw: 0.0
+                pitch: 0.0
+            '24':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -76.0
+                y: -11.0
+                z: -12.0
+                yaw: 0.0
+                pitch: 0.0
+            '25':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -77.0
+                y: -11.0
+                z: -12.0
+                yaw: 0.0
+                pitch: 0.0
+            '26':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -79.0
+                y: -11.0
+                z: -12.0
+                yaw: 0.0
+                pitch: 0.0
+            '27':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -80.0
+                y: -11.0
+                z: -12.0
+                yaw: 0.0
+                pitch: 0.0
+            '28':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -82.0
+                y: -11.0
+                z: -12.0
+                yaw: 0.0
+                pitch: 0.0
+            '29':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -83.0
+                y: -11.0
+                z: -12.0
+                yaw: 0.0
+                pitch: 0.0
+            '30':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -84.0
+                y: -11.0
+                z: -12.0
+                yaw: 0.0
+                pitch: 0.0
+            '31':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -85.0
+                y: -11.0
+                z: -12.0
+                yaw: 0.0
+                pitch: 0.0
+            '32':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -86.0
+                y: -11.0
+                z: -13.0
+                yaw: 0.0
+                pitch: 0.0
+            '33':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -87.0
+                y: -11.0
+                z: -13.0
+                yaw: 0.0
+                pitch: 0.0
+            '34':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -88.0
+                y: -11.0
+                z: -13.0
+                yaw: 0.0
+                pitch: 0.0
+            '35':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -89.0
+                y: -11.0
+                z: -14.0
+                yaw: 0.0
+                pitch: 0.0
+            '36':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -90.0
+                y: -11.0
+                z: -14.0
+                yaw: 0.0
+                pitch: 0.0
+            '37':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -91.0
+                y: -11.0
+                z: -15.0
+                yaw: 0.0
+                pitch: 0.0
+            '38':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -92.0
+                y: -11.0
+                z: -15.0
+                yaw: 0.0
+                pitch: 0.0
+            '39':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -93.0
+                y: -11.0
+                z: -16.0
+                yaw: 0.0
+                pitch: 0.0
+            '40':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -94.0
+                y: -11.0
+                z: -17.0
+                yaw: 0.0
+                pitch: 0.0
+            '41':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -96.0
+                y: -12.0
+                z: -18.0
+                yaw: 0.0
+                pitch: 0.0
+            '42':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -97.0
+                y: -12.0
+                z: -19.0
+                yaw: 0.0
+                pitch: 0.0
+            '43':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -98.0
+                y: -12.0
+                z: -20.0
+                yaw: 0.0
+                pitch: 0.0
+            '44':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -98.0
+                y: -12.0
+                z: -20.0
+                yaw: 0.0
+                pitch: 0.0
+            '45':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -99.0
+                y: -12.0
+                z: -21.0
+                yaw: 0.0
+                pitch: 0.0
+            '46':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -100.0
+                y: -12.0
+                z: -22.0
+                yaw: 0.0
+                pitch: 0.0
+            '47':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -100.0
+                y: -12.0
+                z: -23.0
+                yaw: 0.0
+                pitch: 0.0
+            '48':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -102.0
+                y: -13.0
+                z: -25.0
+                yaw: 0.0
+                pitch: 0.0
+            '49':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -103.0
+                y: -13.0
+                z: -26.0
+                yaw: 0.0
+                pitch: 0.0
+            '50':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -104.0
+                y: -13.0
+                z: -27.0
+                yaw: 0.0
+                pitch: 0.0
+            '51':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -104.0
+                y: -13.0
+                z: -27.0
+                yaw: 0.0
+                pitch: 0.0
+            '52':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -105.0
+                y: -13.0
+                z: -28.0
+                yaw: 0.0
+                pitch: 0.0
+            '53':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -106.0
+                y: -13.0
+                z: -29.0
+                yaw: 0.0
+                pitch: 0.0
+            '54':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -107.0
+                y: -13.0
+                z: -30.0
+                yaw: 0.0
+                pitch: 0.0
+            '55':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -108.0
+                y: -13.0
+                z: -31.0
+                yaw: 0.0
+                pitch: 0.0
+            '56':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -109.0
+                y: -13.0
+                z: -31.0
+                yaw: 0.0
+                pitch: 0.0
+            '57':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -110.0
+                y: -13.0
+                z: -32.0
+                yaw: 0.0
+                pitch: 0.0
+            '58':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -111.0
+                y: -13.0
+                z: -32.0
+                yaw: 0.0
+                pitch: 0.0
+            '59':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -113.0
+                y: -13.0
+                z: -33.0
+                yaw: 0.0
+                pitch: 0.0
+            '60':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -114.0
+                y: -13.0
+                z: -33.0
+                yaw: 0.0
+                pitch: 0.0
+            '61':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -115.0
+                y: -13.0
+                z: -33.0
+                yaw: 0.0
+                pitch: 0.0
+            '62':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -117.0
+                y: -13.0
+                z: -33.0
+                yaw: 0.0
+                pitch: 0.0
+            '63':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -118.0
+                y: -13.0
+                z: -32.0
+                yaw: 0.0
+                pitch: 0.0
+            '64':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -119.0
+                y: -13.0
+                z: -32.0
+                yaw: 0.0
+                pitch: 0.0
+            '65':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -121.0
+                y: -13.0
+                z: -32.0
+                yaw: 0.0
+                pitch: 0.0
+            '66':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -122.0
+                y: -13.0
+                z: -32.0
+                yaw: 0.0
+                pitch: 0.0
+            '67':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -123.0
+                y: -13.0
+                z: -32.0
+                yaw: 0.0
+                pitch: 0.0
+            '68':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -125.0
+                y: -13.0
+                z: -32.0
+                yaw: 0.0
+                pitch: 0.0
+            '69':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -126.0
+                y: -13.0
+                z: -31.0
+                yaw: 0.0
+                pitch: 0.0
+            '70':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -127.0
+                y: -13.0
+                z: -31.0
+                yaw: 0.0
+                pitch: 0.0
+            '71':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -128.0
+                y: -13.0
+                z: -30.0
+                yaw: 0.0
+                pitch: 0.0
+            '72':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -129.0
+                y: -13.0
+                z: -29.0
+                yaw: 0.0
+                pitch: 0.0
+            '73':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -130.0
+                y: -13.0
+                z: -29.0
+                yaw: 0.0
+                pitch: 0.0
+            '74':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -131.0
+                y: -13.0
+                z: -28.0
+                yaw: 0.0
+                pitch: 0.0
+            '75':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -132.0
+                y: -13.0
+                z: -26.0
+                yaw: 0.0
+                pitch: 0.0
+            '76':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -133.0
+                y: -13.0
+                z: -25.0
+                yaw: 0.0
+                pitch: 0.0
+            '77':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -133.0
+                y: -13.0
+                z: -24.0
+                yaw: 0.0
+                pitch: 0.0
+            '78':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -133.0
+                y: -13.0
+                z: -23.0
+                yaw: 0.0
+                pitch: 0.0
+            '79':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -133.0
+                y: -13.0
+                z: -21.0
+                yaw: 0.0
+                pitch: 0.0
+            '80':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -133.0
+                y: -13.0
+                z: -20.0
+                yaw: 0.0
+                pitch: 0.0
+            '81':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -133.0
+                y: -13.0
+                z: -19.0
+                yaw: 0.0
+                pitch: 0.0
+            '82':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -133.0
+                y: -13.0
+                z: -17.0
+                yaw: 0.0
+                pitch: 0.0
+            '83':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -133.0
+                y: -13.0
+                z: -16.0
+                yaw: 0.0
+                pitch: 0.0
+            '84':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -133.0
+                y: -13.0
+                z: -14.0
+                yaw: 0.0
+                pitch: 0.0
+            '85':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -133.0
+                y: -13.0
+                z: -13.0
+                yaw: 0.0
+                pitch: 0.0
+            '86':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -132.0
+                y: -13.0
+                z: -11.0
+                yaw: 0.0
+                pitch: 0.0
+            '87':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -132.0
+                y: -13.0
+                z: -10.0
+                yaw: 0.0
+                pitch: 0.0
+            '88':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -132.0
+                y: -13.0
+                z: -9.0
+                yaw: 0.0
+                pitch: 0.0
+            '89':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -132.0
+                y: -13.0
+                z: -8.0
+                yaw: 0.0
+                pitch: 0.0
+            '90':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -131.0
+                y: -13.0
+                z: -7.0
+                yaw: 0.0
+                pitch: 0.0
+            '91':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -130.0
+                y: -13.0
+                z: -5.0
+                yaw: 0.0
+                pitch: 0.0
+            '92':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -130.0
+                y: -13.0
+                z: -4.0
+                yaw: 0.0
+                pitch: 0.0
+            '93':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -129.0
+                y: -13.0
+                z: -3.0
+                yaw: 0.0
+                pitch: 0.0
+            '94':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -128.0
+                y: -13.0
+                z: -2.0
+                yaw: 0.0
+                pitch: 0.0
+            '95':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -127.0
+                y: -13.0
+                z: -1.0
+                yaw: 0.0
+                pitch: 0.0
+            '96':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -127.0
+                y: -13.0
+                z: 0.0
+                yaw: 0.0
+                pitch: 0.0
+            '97':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -126.0
+                y: -13.0
+                z: 1.0
+                yaw: 0.0
+                pitch: 0.0
+            '98':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -126.0
+                y: -13.0
+                z: 2.0
+                yaw: 0.0
+                pitch: 0.0
+            '99':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -125.0
+                y: -13.0
+                z: 3.0
+                yaw: 0.0
+                pitch: 0.0
+            '100':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -125.0
+                y: -13.0
+                z: 5.0
+                yaw: 0.0
+                pitch: 0.0
+            '101':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -124.0
+                y: -13.0
+                z: 6.0
+                yaw: 0.0
+                pitch: 0.0
+            '102':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -123.0
+                y: -13.0
+                z: 7.0
+                yaw: 0.0
+                pitch: 0.0
+            '103':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -123.0
+                y: -13.0
+                z: 8.0
+                yaw: 0.0
+                pitch: 0.0
+            '104':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -122.0
+                y: -13.0
+                z: 9.0
+                yaw: 0.0
+                pitch: 0.0
+            '105':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -123.0
+                y: -13.0
+                z: 11.0
+                yaw: 0.0
+                pitch: 0.0
+            '106':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -123.0
+                y: -13.0
+                z: 12.0
+                yaw: 0.0
+                pitch: 0.0
+            '107':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -123.0
+                y: -13.0
+                z: 12.0
+                yaw: 0.0
+                pitch: 0.0
+            '108':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -123.0
+                y: -13.0
+                z: 14.0
+                yaw: 0.0
+                pitch: 0.0
+            '109':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -123.0
+                y: -13.0
+                z: 15.0
+                yaw: 0.0
+                pitch: 0.0
+            '110':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -123.0
+                y: -13.0
+                z: 16.0
+                yaw: 0.0
+                pitch: 0.0
+            '111':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -123.0
+                y: -13.0
+                z: 18.0
+                yaw: 0.0
+                pitch: 0.0
+            '112':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -122.0
+                y: -13.0
+                z: 19.0
+                yaw: 0.0
+                pitch: 0.0
+            '113':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -122.0
+                y: -13.0
+                z: 20.0
+                yaw: 0.0
+                pitch: 0.0
+            '114':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -121.0
+                y: -13.0
+                z: 21.0
+                yaw: 0.0
+                pitch: 0.0
+            '115':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -121.0
+                y: -13.0
+                z: 22.0
+                yaw: 0.0
+                pitch: 0.0
+            '116':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -120.0
+                y: -13.0
+                z: 23.0
+                yaw: 0.0
+                pitch: 0.0
+            '117':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -119.0
+                y: -13.0
+                z: 24.0
+                yaw: 0.0
+                pitch: 0.0
+            '118':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -119.0
+                y: -13.0
+                z: 25.0
+                yaw: 0.0
+                pitch: 0.0
+            '119':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -118.0
+                y: -13.0
+                z: 27.0
+                yaw: 0.0
+                pitch: 0.0
+            '120':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -117.0
+                y: -12.0
+                z: 27.0
+                yaw: 0.0
+                pitch: 0.0
+            '121':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -117.0
+                y: -12.0
+                z: 28.0
+                yaw: 0.0
+                pitch: 0.0
+            '122':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -115.0
+                y: -12.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '123':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -115.0
+                y: -12.0
+                z: 31.0
+                yaw: 0.0
+                pitch: 0.0
+            '124':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -114.0
+                y: -12.0
+                z: 32.0
+                yaw: 0.0
+                pitch: 0.0
+            '125':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -114.0
+                y: -12.0
+                z: 34.0
+                yaw: 0.0
+                pitch: 0.0
+            '126':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -114.0
+                y: -12.0
+                z: 35.0
+                yaw: 0.0
+                pitch: 0.0
+            '127':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -115.0
+                y: -12.0
+                z: 36.0
+                yaw: 0.0
+                pitch: 0.0
+            '128':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -116.0
+                y: -13.0
+                z: 38.0
+                yaw: 0.0
+                pitch: 0.0
+            '129':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -116.0
+                y: -13.0
+                z: 39.0
+                yaw: 0.0
+                pitch: 0.0
+            '130':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -117.0
+                y: -13.0
+                z: 40.0
+                yaw: 0.0
+                pitch: 0.0
+            '131':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -117.0
+                y: -13.0
+                z: 40.0
+                yaw: 0.0
+                pitch: 0.0
+            '132':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -118.0
+                y: -13.0
+                z: 41.0
+                yaw: 0.0
+                pitch: 0.0
+            '133':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -119.0
+                y: -13.0
+                z: 42.0
+                yaw: 0.0
+                pitch: 0.0
+            '134':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -120.0
+                y: -13.0
+                z: 43.0
+                yaw: 0.0
+                pitch: 0.0
+            '135':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -120.0
+                y: -13.0
+                z: 44.0
+                yaw: 0.0
+                pitch: 0.0
+            '136':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -121.0
+                y: -13.0
+                z: 45.0
+                yaw: 0.0
+                pitch: 0.0
+            '137':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -122.0
+                y: -13.0
+                z: 45.0
+                yaw: 0.0
+                pitch: 0.0
+            '138':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -123.0
+                y: -13.0
+                z: 46.0
+                yaw: 0.0
+                pitch: 0.0
+            '139':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -123.0
+                y: -13.0
+                z: 47.0
+                yaw: 0.0
+                pitch: 0.0
+            '140':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -124.0
+                y: -13.0
+                z: 49.0
+                yaw: 0.0
+                pitch: 0.0
+            '141':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -124.0
+                y: -13.0
+                z: 50.0
+                yaw: 0.0
+                pitch: 0.0
+            '142':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -124.0
+                y: -14.0
+                z: 53.0
+                yaw: 0.0
+                pitch: 0.0
+            '143':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -124.0
+                y: -14.0
+                z: 54.0
+                yaw: 0.0
+                pitch: 0.0
+            '144':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -124.0
+                y: -14.0
+                z: 54.0
+                yaw: 0.0
+                pitch: 0.0
+            '145':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -124.0
+                y: -14.0
+                z: 55.0
+                yaw: 0.0
+                pitch: 0.0
+            '146':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -124.0
+                y: -14.0
+                z: 56.0
+                yaw: 0.0
+                pitch: 0.0
+            '147':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -123.0
+                y: -14.0
+                z: 58.0
+                yaw: 0.0
+                pitch: 0.0
+            '148':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -122.0
+                y: -14.0
+                z: 59.0
+                yaw: 0.0
+                pitch: 0.0
+            '149':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -121.0
+                y: -14.0
+                z: 60.0
+                yaw: 0.0
+                pitch: 0.0
+            '150':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -120.0
+                y: -14.0
+                z: 61.0
+                yaw: 0.0
+                pitch: 0.0
+            '151':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -119.0
+                y: -14.0
+                z: 61.0
+                yaw: 0.0
+                pitch: 0.0
+            '152':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -118.0
+                y: -14.0
+                z: 62.0
+                yaw: 0.0
+                pitch: 0.0
+            '153':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -117.0
+                y: -14.0
+                z: 63.0
+                yaw: 0.0
+                pitch: 0.0
+            '154':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -116.0
+                y: -14.0
+                z: 64.0
+                yaw: 0.0
+                pitch: 0.0
+            '155':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -115.0
+                y: -14.0
+                z: 64.0
+                yaw: 0.0
+                pitch: 0.0
+            '156':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -114.0
+                y: -14.0
+                z: 65.0
+                yaw: 0.0
+                pitch: 0.0
+            '157':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -112.0
+                y: -14.0
+                z: 65.0
+                yaw: 0.0
+                pitch: 0.0
+            '158':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -111.0
+                y: -14.0
+                z: 66.0
+                yaw: 0.0
+                pitch: 0.0
+            '159':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -109.0
+                y: -14.0
+                z: 66.0
+                yaw: 0.0
+                pitch: 0.0
+            '160':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -108.0
+                y: -14.0
+                z: 66.0
+                yaw: 0.0
+                pitch: 0.0
+            '161':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -107.0
+                y: -13.0
+                z: 66.0
+                yaw: 0.0
+                pitch: 0.0
+            '162':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -107.0
+                y: -13.0
+                z: 67.0
+                yaw: 0.0
+                pitch: 0.0
+            '163':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -106.0
+                y: -13.0
+                z: 67.0
+                yaw: 0.0
+                pitch: 0.0
+            '164':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -106.0
+                y: -13.0
+                z: 67.0
+                yaw: 0.0
+                pitch: 0.0
+            '165':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -105.0
+                y: -13.0
+                z: 68.0
+                yaw: 0.0
+                pitch: 0.0
+            '166':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -104.0
+                y: -12.0
+                z: 68.0
+                yaw: 0.0
+                pitch: 0.0
+            '167':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -102.0
+                y: -12.0
+                z: 69.0
+                yaw: 0.0
+                pitch: 0.0
+            '168':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -101.0
+                y: -11.0
+                z: 69.0
+                yaw: 0.0
+                pitch: 0.0
+            '169':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -100.0
+                y: -11.0
+                z: 70.0
+                yaw: 0.0
+                pitch: 0.0
+            '170':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -99.0
+                y: -10.0
+                z: 70.0
+                yaw: 0.0
+                pitch: 0.0
+            '171':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -98.0
+                y: -10.0
+                z: 71.0
+                yaw: 0.0
+                pitch: 0.0
+            '172':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -96.0
+                y: -10.0
+                z: 71.0
+                yaw: 0.0
+                pitch: 0.0
+            '173':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -94.0
+                y: -10.0
+                z: 71.0
+                yaw: 0.0
+                pitch: 0.0
+            '174':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -93.0
+                y: -10.0
+                z: 72.0
+                yaw: 0.0
+                pitch: 0.0
+            '175':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -92.0
+                y: -10.0
+                z: 72.0
+                yaw: 0.0
+                pitch: 0.0
+            '176':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -91.0
+                y: -10.0
+                z: 73.0
+                yaw: 0.0
+                pitch: 0.0
+            '177':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -90.0
+                y: -10.0
+                z: 73.0
+                yaw: 0.0
+                pitch: 0.0
+            '178':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -89.0
+                y: -10.0
+                z: 74.0
+                yaw: 0.0
+                pitch: 0.0
+            '179':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -88.0
+                y: -10.0
+                z: 76.0
+                yaw: 0.0
+                pitch: 0.0
+            '180':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -88.0
+                y: -10.0
+                z: 77.0
+                yaw: 0.0
+                pitch: 0.0
+            '181':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -87.0
+                y: -10.0
+                z: 78.0
+                yaw: 0.0
+                pitch: 0.0
+            '182':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -87.0
+                y: -10.0
+                z: 80.0
+                yaw: 0.0
+                pitch: 0.0
+            '183':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -87.0
+                y: -10.0
+                z: 81.0
+                yaw: 0.0
+                pitch: 0.0
+            '184':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -86.0
+                y: -10.0
+                z: 82.0
+                yaw: 0.0
+                pitch: 0.0
+            '185':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -86.0
+                y: -10.0
+                z: 83.0
+                yaw: 0.0
+                pitch: 0.0
+            '186':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -85.0
+                y: -10.0
+                z: 85.0
+                yaw: 0.0
+                pitch: 0.0
+            '187':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -85.0
+                y: -10.0
+                z: 86.0
+                yaw: 0.0
+                pitch: 0.0
+            '188':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -84.0
+                y: -10.0
+                z: 87.0
+                yaw: 0.0
+                pitch: 0.0
+            '189':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -84.0
+                y: -10.0
+                z: 88.0
+                yaw: 0.0
+                pitch: 0.0
+            '190':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -84.0
+                y: -10.0
+                z: 89.0
+                yaw: 0.0
+                pitch: 0.0
+            '191':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -83.0
+                y: -10.0
+                z: 90.0
+                yaw: 0.0
+                pitch: 0.0
+            '192':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -83.0
+                y: -10.0
+                z: 91.0
+                yaw: 0.0
+                pitch: 0.0
+            '193':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -83.0
+                y: -10.0
+                z: 93.0
+                yaw: 0.0
+                pitch: 0.0
+            '194':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -82.0
+                y: -10.0
+                z: 94.0
+                yaw: 0.0
+                pitch: 0.0
+            '195':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -82.0
+                y: -10.0
+                z: 95.0
+                yaw: 0.0
+                pitch: 0.0
+            '196':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -81.0
+                y: -10.0
+                z: 97.0
+                yaw: 0.0
+                pitch: 0.0
+            '197':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -80.0
+                y: -10.0
+                z: 98.0
+                yaw: 0.0
+                pitch: 0.0
+            '198':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -79.0
+                y: -10.0
+                z: 99.0
+                yaw: 0.0
+                pitch: 0.0
+            '199':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -78.0
+                y: -10.0
+                z: 99.0
+                yaw: 0.0
+                pitch: 0.0
+            '200':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -76.0
+                y: -10.0
+                z: 99.0
+                yaw: 0.0
+                pitch: 0.0
+            '201':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -75.0
+                y: -10.0
+                z: 99.0
+                yaw: 0.0
+                pitch: 0.0
+            '202':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -73.0
+                y: -10.0
+                z: 99.0
+                yaw: 0.0
+                pitch: 0.0
+            '203':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -72.0
+                y: -10.0
+                z: 99.0
+                yaw: 0.0
+                pitch: 0.0
+            '204':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -71.0
+                y: -10.0
+                z: 99.0
+                yaw: 0.0
+                pitch: 0.0
+            '205':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -69.0
+                y: -10.0
+                z: 99.0
+                yaw: 0.0
+                pitch: 0.0
+            '206':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -68.0
+                y: -10.0
+                z: 98.0
+                yaw: 0.0
+                pitch: 0.0
+            '207':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -67.0
+                y: -10.0
+                z: 98.0
+                yaw: 0.0
+                pitch: 0.0
+            '208':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -66.0
+                y: -10.0
+                z: 98.0
+                yaw: 0.0
+                pitch: 0.0
+            '209':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -64.0
+                y: -10.0
+                z: 98.0
+                yaw: 0.0
+                pitch: 0.0
+            '210':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -63.0
+                y: -10.0
+                z: 98.0
+                yaw: 0.0
+                pitch: 0.0
+            '211':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -61.0
+                y: -10.0
+                z: 98.0
+                yaw: 0.0
+                pitch: 0.0
+            '212':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -60.0
+                y: -10.0
+                z: 99.0
+                yaw: 0.0
+                pitch: 0.0
+            '213':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -59.0
+                y: -10.0
+                z: 99.0
+                yaw: 0.0
+                pitch: 0.0
+            '214':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -57.0
+                y: -10.0
+                z: 99.0
+                yaw: 0.0
+                pitch: 0.0
+            '215':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -56.0
+                y: -10.0
+                z: 99.0
+                yaw: 0.0
+                pitch: 0.0
+            '216':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -55.0
+                y: -10.0
+                z: 99.0
+                yaw: 0.0
+                pitch: 0.0
+            '217':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -53.0
+                y: -11.0
+                z: 100.0
+                yaw: 0.0
+                pitch: 0.0
+            '218':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -52.0
+                y: -11.0
+                z: 101.0
+                yaw: 0.0
+                pitch: 0.0
+            '219':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -51.0
+                y: -11.0
+                z: 101.0
+                yaw: 0.0
+                pitch: 0.0
+            '220':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -50.0
+                y: -11.0
+                z: 102.0
+                yaw: 0.0
+                pitch: 0.0
+            '221':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -50.0
+                y: -11.0
+                z: 102.0
+                yaw: 0.0
+                pitch: 0.0
+            '222':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -49.0
+                y: -11.0
+                z: 103.0
+                yaw: 0.0
+                pitch: 0.0
+            '223':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -46.0
+                y: -12.0
+                z: 104.0
+                yaw: 0.0
+                pitch: 0.0
+            '224':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -45.0
+                y: -12.0
+                z: 104.0
+                yaw: 0.0
+                pitch: 0.0
+            '225':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -42.0
+                y: -14.0
+                z: 105.0
+                yaw: 0.0
+                pitch: 0.0
+            '226':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -41.0
+                y: -14.0
+                z: 106.0
+                yaw: 0.0
+                pitch: 0.0
+            '227':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -40.0
+                y: -14.0
+                z: 106.0
+                yaw: 0.0
+                pitch: 0.0
+            '228':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -39.0
+                y: -14.0
+                z: 106.0
+                yaw: 0.0
+                pitch: 0.0
+            '229':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -37.0
+                y: -14.0
+                z: 105.0
+                yaw: 0.0
+                pitch: 0.0
+            '230':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -37.0
+                y: -14.0
+                z: 106.0
+                yaw: 0.0
+                pitch: 0.0
+            '231':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -35.0
+                y: -15.0
+                z: 105.0
+                yaw: 0.0
+                pitch: 0.0
+            '232':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -34.0
+                y: -15.0
+                z: 105.0
+                yaw: 0.0
+                pitch: 0.0
+            '233':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -33.0
+                y: -15.0
+                z: 105.0
+                yaw: 0.0
+                pitch: 0.0
+            '234':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -31.0
+                y: -15.0
+                z: 104.0
+                yaw: 0.0
+                pitch: 0.0
+            '235':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -30.0
+                y: -15.0
+                z: 104.0
+                yaw: 0.0
+                pitch: 0.0
+            '236':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -29.0
+                y: -15.0
+                z: 103.0
+                yaw: 0.0
+                pitch: 0.0
+            '237':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -27.0
+                y: -15.0
+                z: 102.0
+                yaw: 0.0
+                pitch: 0.0
+            '238':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -26.0
+                y: -15.0
+                z: 102.0
+                yaw: 0.0
+                pitch: 0.0
+            '239':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -25.0
+                y: -15.0
+                z: 101.0
+                yaw: 0.0
+                pitch: 0.0
+            '240':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -24.0
+                y: -15.0
+                z: 100.0
+                yaw: 0.0
+                pitch: 0.0
+            '241':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -23.0
+                y: -15.0
+                z: 100.0
+                yaw: 0.0
+                pitch: 0.0
+            '242':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -21.0
+                y: -15.0
+                z: 99.0
+                yaw: 0.0
+                pitch: 0.0
+            '243':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -20.0
+                y: -15.0
+                z: 98.0
+                yaw: 0.0
+                pitch: 0.0
+            '244':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -19.0
+                y: -15.0
+                z: 97.0
+                yaw: 0.0
+                pitch: 0.0
+            '245':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -18.0
+                y: -15.0
+                z: 96.0
+                yaw: 0.0
+                pitch: 0.0
+            '246':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -17.0
+                y: -15.0
+                z: 96.0
+                yaw: 0.0
+                pitch: 0.0
+            '247':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -16.0
+                y: -15.0
+                z: 95.0
+                yaw: 0.0
+                pitch: 0.0
+            '248':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -15.0
+                y: -15.0
+                z: 94.0
+                yaw: 0.0
+                pitch: 0.0
+            '249':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -14.0
+                y: -15.0
+                z: 93.0
+                yaw: 0.0
+                pitch: 0.0
+            '250':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -13.0
+                y: -15.0
+                z: 92.0
+                yaw: 0.0
+                pitch: 0.0
+            '251':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -13.0
+                y: -15.0
+                z: 92.0
+                yaw: 0.0
+                pitch: 0.0
+            '252':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -12.0
+                y: -15.0
+                z: 91.0
+                yaw: 0.0
+                pitch: 0.0
+            '253':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -11.0
+                y: -15.0
+                z: 90.0
+                yaw: 0.0
+                pitch: 0.0
+            '254':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -10.0
+                y: -15.0
+                z: 89.0
+                yaw: 0.0
+                pitch: 0.0
+            '255':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -10.0
+                y: -14.0
+                z: 88.0
+                yaw: 0.0
+                pitch: 0.0
+            '256':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -9.0
+                y: -14.0
+                z: 88.0
+                yaw: 0.0
+                pitch: 0.0
+            '257':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -8.0
+                y: -14.0
+                z: 87.0
+                yaw: 0.0
+                pitch: 0.0
+            '258':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -6.0
+                y: -14.0
+                z: 86.0
+                yaw: 0.0
+                pitch: 0.0
+            '259':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -5.0
+                y: -14.0
+                z: 85.0
+                yaw: 0.0
+                pitch: 0.0
+            '260':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -4.0
+                y: -14.0
+                z: 84.0
+                yaw: 0.0
+                pitch: 0.0
+            '261':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -3.0
+                y: -14.0
+                z: 83.0
+                yaw: 0.0
+                pitch: 0.0
+            '262':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -2.0
+                y: -14.0
+                z: 82.0
+                yaw: 0.0
+                pitch: 0.0
+            '263':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -1.0
+                y: -14.0
+                z: 81.0
+                yaw: 0.0
+                pitch: 0.0
+            '264':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 0.0
+                y: -14.0
+                z: 80.0
+                yaw: 0.0
+                pitch: 0.0
+            '265':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 1.0
+                y: -14.0
+                z: 80.0
+                yaw: 0.0
+                pitch: 0.0
+            '266':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 2.0
+                y: -14.0
+                z: 79.0
+                yaw: 0.0
+                pitch: 0.0
+            '267':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 3.0
+                y: -14.0
+                z: 79.0
+                yaw: 0.0
+                pitch: 0.0
+            '268':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 5.0
+                y: -14.0
+                z: 78.0
+                yaw: 0.0
+                pitch: 0.0
+            '269':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 6.0
+                y: -14.0
+                z: 78.0
+                yaw: 0.0
+                pitch: 0.0
+            '270':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 7.0
+                y: -14.0
+                z: 78.0
+                yaw: 0.0
+                pitch: 0.0
+            '271':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 8.0
+                y: -14.0
+                z: 77.0
+                yaw: 0.0
+                pitch: 0.0
+            '272':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 9.0
+                y: -14.0
+                z: 76.0
+                yaw: 0.0
+                pitch: 0.0
+            '273':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 10.0
+                y: -14.0
+                z: 75.0
+                yaw: 0.0
+                pitch: 0.0
+            '274':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 11.0
+                y: -14.0
+                z: 74.0
+                yaw: 0.0
+                pitch: 0.0
+            '275':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 12.0
+                y: -14.0
+                z: 73.0
+                yaw: 0.0
+                pitch: 0.0
+            '276':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 12.0
+                y: -14.0
+                z: 72.0
+                yaw: 0.0
+                pitch: 0.0
+            '277':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 13.0
+                y: -14.0
+                z: 71.0
+                yaw: 0.0
+                pitch: 0.0
+            '278':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 13.0
+                y: -14.0
+                z: 69.0
+                yaw: 0.0
+                pitch: 0.0
+            '279':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 14.0
+                y: -14.0
+                z: 68.0
+                yaw: 0.0
+                pitch: 0.0
+            '280':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 14.0
+                y: -14.0
+                z: 67.0
+                yaw: 0.0
+                pitch: 0.0
+            '281':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 14.0
+                y: -14.0
+                z: 65.0
+                yaw: 0.0
+                pitch: 0.0
+            '282':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 14.0
+                y: -14.0
+                z: 64.0
+                yaw: 0.0
+                pitch: 0.0
+            '283':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 14.0
+                y: -14.0
+                z: 63.0
+                yaw: 0.0
+                pitch: 0.0
+            '284':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 14.0
+                y: -14.0
+                z: 62.0
+                yaw: 0.0
+                pitch: 0.0
+            '285':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 14.0
+                y: -14.0
+                z: 60.0
+                yaw: 0.0
+                pitch: 0.0
+            '286':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 15.0
+                y: -14.0
+                z: 59.0
+                yaw: 0.0
+                pitch: 0.0
+            '287':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 15.0
+                y: -14.0
+                z: 58.0
+                yaw: 0.0
+                pitch: 0.0
+            '288':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 15.0
+                y: -14.0
+                z: 56.0
+                yaw: 0.0
+                pitch: 0.0
+            '289':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 15.0
+                y: -14.0
+                z: 55.0
+                yaw: 0.0
+                pitch: 0.0
+            '290':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 15.0
+                y: -14.0
+                z: 54.0
+                yaw: 0.0
+                pitch: 0.0
+            '291':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 15.0
+                y: -14.0
+                z: 53.0
+                yaw: 0.0
+                pitch: 0.0
+            '292':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 15.0
+                y: -14.0
+                z: 51.0
+                yaw: 0.0
+                pitch: 0.0
+            '293':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 16.0
+                y: -14.0
+                z: 50.0
+                yaw: 0.0
+                pitch: 0.0
+            '294':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 16.0
+                y: -14.0
+                z: 49.0
+                yaw: 0.0
+                pitch: 0.0
+            '295':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 17.0
+                y: -14.0
+                z: 48.0
+                yaw: 0.0
+                pitch: 0.0
+            '296':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 18.0
+                y: -14.0
+                z: 46.0
+                yaw: 0.0
+                pitch: 0.0
+            '297':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 18.0
+                y: -14.0
+                z: 45.0
+                yaw: 0.0
+                pitch: 0.0
+            '298':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 19.0
+                y: -14.0
+                z: 44.0
+                yaw: 0.0
+                pitch: 0.0
+            '299':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 19.0
+                y: -14.0
+                z: 43.0
+                yaw: 0.0
+                pitch: 0.0
+            '300':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 19.0
+                y: -14.0
+                z: 42.0
+                yaw: 0.0
+                pitch: 0.0
+            '301':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 20.0
+                y: -15.0
+                z: 40.0
+                yaw: 0.0
+                pitch: 0.0
+            '302':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 21.0
+                y: -15.0
+                z: 39.0
+                yaw: 0.0
+                pitch: 0.0
+            '303':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 21.0
+                y: -16.0
+                z: 38.0
+                yaw: 0.0
+                pitch: 0.0
+            '304':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 22.0
+                y: -15.0
+                z: 38.0
+                yaw: 0.0
+                pitch: 0.0
+            '305':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 22.0
+                y: -16.0
+                z: 37.0
+                yaw: 0.0
+                pitch: 0.0
+            '306':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 22.0
+                y: -16.0
+                z: 36.0
+                yaw: 0.0
+                pitch: 0.0
+            '307':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 23.0
+                y: -16.0
+                z: 35.0
+                yaw: 0.0
+                pitch: 0.0
+            '308':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 24.0
+                y: -16.0
+                z: 34.0
+                yaw: 0.0
+                pitch: 0.0
+            '309':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 24.0
+                y: -16.0
+                z: 33.0
+                yaw: 0.0
+                pitch: 0.0
+            '310':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 25.0
+                y: -16.0
+                z: 32.0
+                yaw: 0.0
+                pitch: 0.0
+            '311':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 25.0
+                y: -16.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '312':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 26.0
+                y: -16.0
+                z: 29.0
+                yaw: 0.0
+                pitch: 0.0
+            '313':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 26.0
+                y: -16.0
+                z: 27.0
+                yaw: 0.0
+                pitch: 0.0
+            '314':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 27.0
+                y: -16.0
+                z: 26.0
+                yaw: 0.0
+                pitch: 0.0
+            '315':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 27.0
+                y: -16.0
+                z: 25.0
+                yaw: 0.0
+                pitch: 0.0
+            '316':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 28.0
+                y: -16.0
+                z: 24.0
+                yaw: 0.0
+                pitch: 0.0
+            '317':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 28.0
+                y: -16.0
+                z: 23.0
+                yaw: 0.0
+                pitch: 0.0
+            '318':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 28.0
+                y: -16.0
+                z: 22.0
+                yaw: 0.0
+                pitch: 0.0
+            '319':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 29.0
+                y: -16.0
+                z: 20.0
+                yaw: 0.0
+                pitch: 0.0
+            '320':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 29.0
+                y: -16.0
+                z: 19.0
+                yaw: 0.0
+                pitch: 0.0
+            '321':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 29.0
+                y: -16.0
+                z: 18.0
+                yaw: 0.0
+                pitch: 0.0
+            '322':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 29.0
+                y: -16.0
+                z: 16.0
+                yaw: 0.0
+                pitch: 0.0
+            '323':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 29.0
+                y: -16.0
+                z: 15.0
+                yaw: 0.0
+                pitch: 0.0
+            '324':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 29.0
+                y: -16.0
+                z: 14.0
+                yaw: 0.0
+                pitch: 0.0
+            '325':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 29.0
+                y: -16.0
+                z: 13.0
+                yaw: 0.0
+                pitch: 0.0
+            '326':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 28.0
+                y: -16.0
+                z: 12.0
+                yaw: 0.0
+                pitch: 0.0
+            '327':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 28.0
+                y: -16.0
+                z: 10.0
+                yaw: 0.0
+                pitch: 0.0
+            '328':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 27.0
+                y: -16.0
+                z: 9.0
+                yaw: 0.0
+                pitch: 0.0
+            '329':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 26.0
+                y: -16.0
+                z: 8.0
+                yaw: 0.0
+                pitch: 0.0
+            '330':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 24.0
+                y: -16.0
+                z: 7.0
+                yaw: 0.0
+                pitch: 0.0
+            '331':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 23.0
+                y: -16.0
+                z: 7.0
+                yaw: 0.0
+                pitch: 0.0
+            '332':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 22.0
+                y: -16.0
+                z: 6.0
+                yaw: 0.0
+                pitch: 0.0
+            '333':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 21.0
+                y: -16.0
+                z: 6.0
+                yaw: 0.0
+                pitch: 0.0
+            '334':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 20.0
+                y: -16.0
+                z: 5.0
+                yaw: 0.0
+                pitch: 0.0
+            '335':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 18.0
+                y: -16.0
+                z: 4.0
+                yaw: 0.0
+                pitch: 0.0
+            '336':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 17.0
+                y: -16.0
+                z: 3.0
+                yaw: 0.0
+                pitch: 0.0
+            '337':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 16.0
+                y: -16.0
+                z: 3.0
+                yaw: 0.0
+                pitch: 0.0
+            '338':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 15.0
+                y: -16.0
+                z: 2.0
+                yaw: 0.0
+                pitch: 0.0
+            '339':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 14.0
+                y: -16.0
+                z: 2.0
+                yaw: 0.0
+                pitch: 0.0
+            '340':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 13.0
+                y: -16.0
+                z: 1.0
+                yaw: 0.0
+                pitch: 0.0
+            '341':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 12.0
+                y: -16.0
+                z: 0.0
+                yaw: 0.0
+                pitch: 0.0
+            '342':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 11.0
+                y: -16.0
+                z: -1.0
+                yaw: 0.0
+                pitch: 0.0
+            '343':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 10.0
+                y: -16.0
+                z: -1.0
+                yaw: 0.0
+                pitch: 0.0
+            '344':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 9.0
+                y: -16.0
+                z: -2.0
+                yaw: 0.0
+                pitch: 0.0
+            '345':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 8.0
+                y: -16.0
+                z: -3.0
+                yaw: 0.0
+                pitch: 0.0
+            '346':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 6.0
+                y: -16.0
+                z: -3.0
+                yaw: 0.0
+                pitch: 0.0
+            '347':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 5.0
+                y: -16.0
+                z: -3.0
+                yaw: 0.0
+                pitch: 0.0
+            '348':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 4.0
+                y: -16.0
+                z: -3.0
+                yaw: 0.0
+                pitch: 0.0
+            '349':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 3.0
+                y: -15.0
+                z: -3.0
+                yaw: 0.0
+                pitch: 0.0
+            '350':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 2.0
+                y: -15.0
+                z: -3.0
+                yaw: 0.0
+                pitch: 0.0
+            '351':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: 1.0
+                y: -15.0
+                z: -3.0
+                yaw: 0.0
+                pitch: 0.0
+            '352':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -2.0
+                y: -15.0
+                z: -3.0
+                yaw: 0.0
+                pitch: 0.0
+            '353':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -3.0
+                y: -15.0
+                z: -2.0
+                yaw: 0.0
+                pitch: 0.0
+            '354':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -5.0
+                y: -15.0
+                z: -1.0
+                yaw: 0.0
+                pitch: 0.0
+            '355':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -6.0
+                y: -14.0
+                z: -1.0
+                yaw: 0.0
+                pitch: 0.0
+            '356':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -6.0
+                y: -14.0
+                z: 0.0
+                yaw: 0.0
+                pitch: 0.0
+            '357':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -7.0
+                y: -14.0
+                z: 0.0
+                yaw: 0.0
+                pitch: 0.0
+            '358':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -8.0
+                y: -14.0
+                z: 0.0
+                yaw: 0.0
+                pitch: 0.0
+            '359':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -9.0
+                y: -13.0
+                z: 1.0
+                yaw: 0.0
+                pitch: 0.0
+            '360':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -11.0
+                y: -13.0
+                z: 2.0
+                yaw: 0.0
+                pitch: 0.0
+            '361':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -12.0
+                y: -13.0
+                z: 3.0
+                yaw: 0.0
+                pitch: 0.0
+            '362':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -13.0
+                y: -13.0
+                z: 4.0
+                yaw: 0.0
+                pitch: 0.0
+            '363':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -14.0
+                y: -13.0
+                z: 5.0
+                yaw: 0.0
+                pitch: 0.0
+            '364':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -14.0
+                y: -13.0
+                z: 6.0
+                yaw: 0.0
+                pitch: 0.0
+            '365':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -15.0
+                y: -13.0
+                z: 8.0
+                yaw: 0.0
+                pitch: 0.0
+            '366':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -15.0
+                y: -12.0
+                z: 9.0
+                yaw: 0.0
+                pitch: 0.0
+            '367':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -16.0
+                y: -12.0
+                z: 10.0
+                yaw: 0.0
+                pitch: 0.0
+            '368':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -16.0
+                y: -12.0
+                z: 10.0
+                yaw: 0.0
+                pitch: 0.0
+            '369':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -17.0
+                y: -12.0
+                z: 11.0
+                yaw: 0.0
+                pitch: 0.0
+            '370':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -18.0
+                y: -12.0
+                z: 13.0
+                yaw: 0.0
+                pitch: 0.0
+            '371':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -19.0
+                y: -12.0
+                z: 14.0
+                yaw: 0.0
+                pitch: 0.0
+            '372':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -19.0
+                y: -11.0
+                z: 15.0
+                yaw: 0.0
+                pitch: 0.0
+            '373':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -19.0
+                y: -11.0
+                z: 15.0
+                yaw: 0.0
+                pitch: 0.0
+            '374':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -20.0
+                y: -11.0
+                z: 16.0
+                yaw: 0.0
+                pitch: 0.0
+            '375':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -22.0
+                y: -11.0
+                z: 18.0
+                yaw: 0.0
+                pitch: 0.0
+            '376':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -22.0
+                y: -11.0
+                z: 20.0
+                yaw: 0.0
+                pitch: 0.0
+            '377':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -23.0
+                y: -11.0
+                z: 21.0
+                yaw: 0.0
+                pitch: 0.0
+            '378':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -24.0
+                y: -11.0
+                z: 21.0
+                yaw: 0.0
+                pitch: 0.0
+            '379':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -25.0
+                y: -11.0
+                z: 22.0
+                yaw: 0.0
+                pitch: 0.0
+            '380':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -26.0
+                y: -11.0
+                z: 23.0
+                yaw: 0.0
+                pitch: 0.0
+            '381':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -27.0
+                y: -11.0
+                z: 24.0
+                yaw: 0.0
+                pitch: 0.0
+            '382':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -28.0
+                y: -11.0
+                z: 25.0
+                yaw: 0.0
+                pitch: 0.0
+            '383':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -28.0
+                y: -11.0
+                z: 26.0
+                yaw: 0.0
+                pitch: 0.0
+            '384':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -29.0
+                y: -11.0
+                z: 27.0
+                yaw: 0.0
+                pitch: 0.0
+            '385':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -30.0
+                y: -11.0
+                z: 28.0
+                yaw: 0.0
+                pitch: 0.0
+            '386':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -31.0
+                y: -11.0
+                z: 29.0
+                yaw: 0.0
+                pitch: 0.0
+            '387':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -32.0
+                y: -11.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '388':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -33.0
+                y: -11.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '389':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -34.0
+                y: -11.0
+                z: 31.0
+                yaw: 0.0
+                pitch: 0.0
+            '390':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -36.0
+                y: -11.0
+                z: 31.0
+                yaw: 0.0
+                pitch: 0.0
+            '391':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -37.0
+                y: -11.0
+                z: 32.0
+                yaw: 0.0
+                pitch: 0.0
+            '392':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -41.0
+                y: -11.0
+                z: 32.0
+                yaw: 0.0
+                pitch: 0.0
+            '393':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -42.0
+                y: -11.0
+                z: 32.0
+                yaw: 0.0
+                pitch: 0.0
+            '394':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -42.0
+                y: -11.0
+                z: 32.0
+                yaw: 0.0
+                pitch: 0.0
+            '395':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -43.0
+                y: -11.0
+                z: 32.0
+                yaw: 0.0
+                pitch: 0.0
+            '396':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -44.0
+                y: -11.0
+                z: 32.0
+                yaw: 0.0
+                pitch: 0.0
+            '397':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -46.0
+                y: -11.0
+                z: 32.0
+                yaw: 0.0
+                pitch: 0.0
+            '398':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -47.0
+                y: -11.0
+                z: 32.0
+                yaw: 0.0
+                pitch: 0.0
+            '399':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -49.0
+                y: -11.0
+                z: 31.0
+                yaw: 0.0
+                pitch: 0.0
+            '400':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -50.0
+                y: -11.0
+                z: 31.0
+                yaw: 0.0
+                pitch: 0.0
+            '401':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -52.0
+                y: -11.0
+                z: 31.0
+                yaw: 0.0
+                pitch: 0.0
+            '402':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -57.0
+                y: -11.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '403':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -58.0
+                y: -11.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '404':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -59.0
+                y: -11.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '405':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -60.0
+                y: -11.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '406':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -61.0
+                y: -11.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '407':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -62.0
+                y: -11.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '408':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -64.0
+                y: -11.0
+                z: 29.0
+                yaw: 0.0
+                pitch: 0.0
+            '409':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -65.0
+                y: -11.0
+                z: 29.0
+                yaw: 0.0
+                pitch: 0.0
+            '410':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -66.0
+                y: -11.0
+                z: 29.0
+                yaw: 0.0
+                pitch: 0.0
+            '411':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -68.0
+                y: -11.0
+                z: 29.0
+                yaw: 0.0
+                pitch: 0.0
+            '412':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -69.0
+                y: -11.0
+                z: 29.0
+                yaw: 0.0
+                pitch: 0.0
+            '413':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -70.0
+                y: -11.0
+                z: 29.0
+                yaw: 0.0
+                pitch: 0.0
+            '414':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -72.0
+                y: -11.0
+                z: 29.0
+                yaw: 0.0
+                pitch: 0.0
+            '415':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -73.0
+                y: -11.0
+                z: 29.0
+                yaw: 0.0
+                pitch: 0.0
+            '416':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -74.0
+                y: -11.0
+                z: 29.0
+                yaw: 0.0
+                pitch: 0.0
+            '417':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -75.0
+                y: -11.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '418':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -76.0
+                y: -11.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '419':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -78.0
+                y: -11.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '420':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -79.0
+                y: -11.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '421':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -80.0
+                y: -11.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '422':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -81.0
+                y: -11.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '423':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -83.0
+                y: -11.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '424':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -84.0
+                y: -11.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '425':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -86.0
+                y: -11.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '426':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -87.0
+                y: -11.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '427':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -88.0
+                y: -11.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '428':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -89.0
+                y: -11.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '429':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -91.0
+                y: -11.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '430':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -91.0
+                y: -11.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '431':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -91.0
+                y: -11.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '432':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -91.0
+                y: -11.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '433':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -92.0
+                y: -11.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '434':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -92.0
+                y: -11.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '435':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -92.0
+                y: -11.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '436':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -93.0
+                y: -11.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '437':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -95.0
+                y: -11.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '438':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -97.0
+                y: -11.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '439':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -98.0
+                y: -11.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '440':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -100.0
+                y: -11.0
+                z: 29.0
+                yaw: 0.0
+                pitch: 0.0
+            '441':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -102.0
+                y: -11.0
+                z: 29.0
+                yaw: 0.0
+                pitch: 0.0
+            '442':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -102.0
+                y: -11.0
+                z: 29.0
+                yaw: 0.0
+                pitch: 0.0
+            '443':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -102.0
+                y: -11.0
+                z: 29.0
+                yaw: 0.0
+                pitch: 0.0
+            '444':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -103.0
+                y: -11.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '445':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -105.0
+                y: -11.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '446':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -105.0
+                y: -11.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '447':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -105.0
+                y: -11.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '448':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -106.0
+                y: -11.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '449':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -107.0
+                y: -11.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '450':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -109.0
+                y: -12.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '451':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -110.0
+                y: -12.0
+                z: 30.0
+                yaw: 0.0
+                pitch: 0.0
+            '452':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -111.0
+                y: -12.0
+                z: 29.0
+                yaw: 0.0
+                pitch: 0.0
+            '453':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -113.0
+                y: -12.0
+                z: 28.0
+                yaw: 0.0
+                pitch: 0.0
+            '454':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -114.0
+                y: -12.0
+                z: 28.0
+                yaw: 0.0
+                pitch: 0.0
+            '455':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -116.0
+                y: -12.0
+                z: 28.0
+                yaw: 0.0
+                pitch: 0.0
+            '456':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -117.0
+                y: -12.0
+                z: 28.0
+                yaw: 0.0
+                pitch: 0.0
+            '457':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -120.0
+                y: -13.0
+                z: 24.0
+                yaw: 0.0
+                pitch: 0.0
+            '458':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -120.0
+                y: -13.0
+                z: 23.0
+                yaw: 0.0
+                pitch: 0.0
+            '459':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -120.0
+                y: -13.0
+                z: 23.0
+                yaw: 0.0
+                pitch: 0.0
+            '460':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -120.0
+                y: -13.0
+                z: 23.0
+                yaw: 0.0
+                pitch: 0.0
+            '461':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -120.0
+                y: -13.0
+                z: 22.0
+                yaw: 0.0
+                pitch: 0.0
+            '462':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -121.0
+                y: -13.0
+                z: 21.0
+                yaw: 0.0
+                pitch: 0.0
+            '463':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -122.0
+                y: -13.0
+                z: 19.0
+                yaw: 0.0
+                pitch: 0.0
+            '464':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -123.0
+                y: -13.0
+                z: 18.0
+                yaw: 0.0
+                pitch: 0.0
+            '465':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -123.0
+                y: -13.0
+                z: 15.0
+                yaw: 0.0
+                pitch: 0.0
+            '466':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -123.0
+                y: -13.0
+                z: 13.0
+                yaw: 0.0
+                pitch: 0.0
+            '467':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -123.0
+                y: -13.0
+                z: 12.0
+                yaw: 0.0
+                pitch: 0.0
+            '468':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -123.0
+                y: -13.0
+                z: 11.0
+                yaw: 0.0
+                pitch: 0.0
+            '469':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -124.0
+                y: -13.0
+                z: 9.0
+                yaw: 0.0
+                pitch: 0.0
+            '470':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -125.0
+                y: -13.0
+                z: 7.0
+                yaw: 0.0
+                pitch: 0.0
+            '471':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -125.0
+                y: -13.0
+                z: 6.0
+                yaw: 0.0
+                pitch: 0.0
+            '472':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -126.0
+                y: -13.0
+                z: 4.0
+                yaw: 0.0
+                pitch: 0.0
+            '473':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -126.0
+                y: -13.0
+                z: 3.0
+                yaw: 0.0
+                pitch: 0.0
+            '474':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -127.0
+                y: -13.0
+                z: 2.0
+                yaw: 0.0
+                pitch: 0.0
+            '475':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -127.0
+                y: -13.0
+                z: 0.0
+                yaw: 0.0
+                pitch: 0.0
+            '476':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -128.0
+                y: -13.0
+                z: -2.0
+                yaw: 0.0
+                pitch: 0.0
+            '477':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -129.0
+                y: -13.0
+                z: -3.0
+                yaw: 0.0
+                pitch: 0.0
+            '478':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -130.0
+                y: -13.0
+                z: -5.0
+                yaw: 0.0
+                pitch: 0.0
+            '479':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -131.0
+                y: -13.0
+                z: -7.0
+                yaw: 0.0
+                pitch: 0.0
+            '480':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -131.0
+                y: -13.0
+                z: -8.0
+                yaw: 0.0
+                pitch: 0.0
+            '481':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -132.0
+                y: -13.0
+                z: -10.0
+                yaw: 0.0
+                pitch: 0.0
+            '482':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -132.0
+                y: -13.0
+                z: -12.0
+                yaw: 0.0
+                pitch: 0.0
+            '483':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -132.0
+                y: -13.0
+                z: -13.0
+                yaw: 0.0
+                pitch: 0.0
+            '484':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -133.0
+                y: -13.0
+                z: -15.0
+                yaw: 0.0
+                pitch: 0.0
+            '485':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -133.0
+                y: -13.0
+                z: -16.0
+                yaw: 0.0
+                pitch: 0.0
+            '486':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -133.0
+                y: -13.0
+                z: -18.0
+                yaw: 0.0
+                pitch: 0.0
+            '487':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -133.0
+                y: -13.0
+                z: -20.0
+                yaw: 0.0
+                pitch: 0.0
+            '488':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -133.0
+                y: -13.0
+                z: -22.0
+                yaw: 0.0
+                pitch: 0.0
+            '489':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -133.0
+                y: -13.0
+                z: -23.0
+                yaw: 0.0
+                pitch: 0.0
+            '490':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -132.0
+                y: -13.0
+                z: -25.0
+                yaw: 0.0
+                pitch: 0.0
+            '491':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -131.0
+                y: -13.0
+                z: -26.0
+                yaw: 0.0
+                pitch: 0.0
+            '492':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -130.0
+                y: -13.0
+                z: -27.0
+                yaw: 0.0
+                pitch: 0.0
+            '493':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -128.0
+                y: -13.0
+                z: -29.0
+                yaw: 0.0
+                pitch: 0.0
+            '494':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -127.0
+                y: -13.0
+                z: -30.0
+                yaw: 0.0
+                pitch: 0.0
+            '495':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -125.0
+                y: -13.0
+                z: -31.0
+                yaw: 0.0
+                pitch: 0.0
+            '496':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -124.0
+                y: -13.0
+                z: -32.0
+                yaw: 0.0
+                pitch: 0.0
+            '497':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -122.0
+                y: -13.0
+                z: -31.0
+                yaw: 0.0
+                pitch: 0.0
+            '498':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -120.0
+                y: -13.0
+                z: -31.0
+                yaw: 0.0
+                pitch: 0.0
+            '499':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -115.0
+                y: -13.0
+                z: -31.0
+                yaw: 0.0
+                pitch: 0.0
+            '500':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -114.0
+                y: -13.0
+                z: -31.0
+                yaw: 0.0
+                pitch: 0.0
+            '501':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -112.0
+                y: -13.0
+                z: -31.0
+                yaw: 0.0
+                pitch: 0.0
+            '502':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -111.0
+                y: -13.0
+                z: -31.0
+                yaw: 0.0
+                pitch: 0.0
+            '503':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -109.0
+                y: -13.0
+                z: -30.0
+                yaw: 0.0
+                pitch: 0.0
+            '504':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -107.0
+                y: -13.0
+                z: -30.0
+                yaw: 0.0
+                pitch: 0.0
+            '505':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -106.0
+                y: -13.0
+                z: -28.0
+                yaw: 0.0
+                pitch: 0.0
+            '506':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -105.0
+                y: -13.0
+                z: -27.0
+                yaw: 0.0
+                pitch: 0.0
+            '507':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -103.0
+                y: -13.0
+                z: -25.0
+                yaw: 0.0
+                pitch: 0.0
+            '508':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -102.0
+                y: -13.0
+                z: -24.0
+                yaw: 0.0
+                pitch: 0.0
+            '509':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -101.0
+                y: -12.0
+                z: -23.0
+                yaw: 0.0
+                pitch: 0.0
+            '510':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -100.0
+                y: -12.0
+                z: -23.0
+                yaw: 0.0
+                pitch: 0.0
+            '511':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -98.0
+                y: -12.0
+                z: -21.0
+                yaw: 0.0
+                pitch: 0.0
+            '512':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -97.0
+                y: -12.0
+                z: -20.0
+                yaw: 0.0
+                pitch: 0.0
+            '513':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -96.0
+                y: -12.0
+                z: -19.0
+                yaw: 0.0
+                pitch: 0.0
+            '514':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -95.0
+                y: -11.0
+                z: -18.0
+                yaw: 0.0
+                pitch: 0.0
+            '515':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -94.0
+                y: -11.0
+                z: -17.0
+                yaw: 0.0
+                pitch: 0.0
+            '516':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -92.0
+                y: -11.0
+                z: -16.0
+                yaw: 0.0
+                pitch: 0.0
+            '517':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -91.0
+                y: -11.0
+                z: -15.0
+                yaw: 0.0
+                pitch: 0.0
+            '518':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -89.0
+                y: -11.0
+                z: -14.0
+                yaw: 0.0
+                pitch: 0.0
+            '519':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -88.0
+                y: -11.0
+                z: -13.0
+                yaw: 0.0
+                pitch: 0.0
+            '520':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -86.0
+                y: -11.0
+                z: -13.0
+                yaw: 0.0
+                pitch: 0.0
+            '521':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -84.0
+                y: -11.0
+                z: -12.0
+                yaw: 0.0
+                pitch: 0.0
+            '522':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -83.0
+                y: -11.0
+                z: -12.0
+                yaw: 0.0
+                pitch: 0.0
+            '523':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -81.0
+                y: -11.0
+                z: -12.0
+                yaw: 0.0
+                pitch: 0.0
+            '524':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -79.0
+                y: -11.0
+                z: -12.0
+                yaw: 0.0
+                pitch: 0.0
+            '525':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -78.0
+                y: -11.0
+                z: -11.0
+                yaw: 0.0
+                pitch: 0.0
+            '526':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -76.0
+                y: -11.0
+                z: -11.0
+                yaw: 0.0
+                pitch: 0.0
+            '527':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -74.0
+                y: -11.0
+                z: -11.0
+                yaw: 0.0
+                pitch: 0.0
+            '528':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -72.0
+                y: -11.0
+                z: -11.0
+                yaw: 0.0
+                pitch: 0.0
+            '529':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -71.0
+                y: -11.0
+                z: -12.0
+                yaw: 0.0
+                pitch: 0.0
+            '530':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -69.0
+                y: -11.0
+                z: -12.0
+                yaw: 0.0
+                pitch: 0.0
+            '531':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -68.0
+                y: -11.0
+                z: -12.0
+                yaw: 0.0
+                pitch: 0.0
+            '532':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -63.0
+                y: -12.0
+                z: -15.0
+                yaw: 0.0
+                pitch: 0.0
+            '533':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -63.0
+                y: -12.0
+                z: -16.0
+                yaw: 0.0
+                pitch: 0.0
+            '534':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -61.0
+                y: -12.0
+                z: -17.0
+                yaw: 0.0
+                pitch: 0.0
+            '535':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -60.0
+                y: -12.0
+                z: -18.0
+                yaw: 0.0
+                pitch: 0.0
+            '536':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -59.0
+                y: -12.0
+                z: -20.0
+                yaw: 0.0
+                pitch: 0.0
+            '537':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -57.0
+                y: -13.0
+                z: -22.0
+                yaw: 0.0
+                pitch: 0.0
+            '538':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -56.0
+                y: -14.0
+                z: -26.0
+                yaw: 0.0
+                pitch: 0.0
+            '539':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -56.0
+                y: -14.0
+                z: -26.0
+                yaw: 0.0
+                pitch: 0.0
+            '540':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -56.0
+                y: -14.0
+                z: -28.0
+                yaw: 0.0
+                pitch: 0.0
+            '541':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -57.0
+                y: -14.0
+                z: -30.0
+                yaw: 0.0
+                pitch: 0.0
+            '542':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -58.0
+                y: -14.0
+                z: -30.0
+                yaw: 0.0
+                pitch: 0.0
+            '543':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -60.0
+                y: -14.0
+                z: -30.0
+                yaw: 0.0
+                pitch: 0.0
+            '544':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -61.0
+                y: -14.0
+                z: -28.0
+                yaw: 0.0
+                pitch: 0.0
+            '545':
+              location:
+                worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+                x: -61.0
+                y: -13.0
+                z: -25.0
+                yaw: 0.0
+                pitch: 0.0
+        provider: linear
+      owner:
+        uuid: eaefa64a-b67a-333c-bd6d-dab28f5874bd
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      type: PLAYER
+      attributetrait:
+        attributes:
+          WAYPOINT_TRANSMIT_RANGE: 0.0
+      location:
+        bodyYaw: 89.984604
+        worldid: c72f6705-aa64-4600-b4a4-4f939492d82b
+        x: -40.3793
+        y: -11.0
+        z: 32.5
+        yaw: 89.9846
+        pitch: -0.9399
+    traitnames: scoreboardtrait,owner,spawned,rotationtrait,skintrait,lookclose,location,type,inventory,attributetrait,waypoints
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false
+  '4':
+    name: 附魔师
+    uuid: c5bd14c2-623b-4ad2-bf63-b0aa4f3d8c35
+    traits:
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      owner:
+        uuid: eaefa64a-b67a-333c-bd6d-dab28f5874bd
+      lookclose:
+        range: 10.0
+        enabled: true
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      text:
+        random-talker: true
+        speech-bubble-duration: 100
+        speech-bubbles: true
+        text:
+          '0': 这是我的附魔台，不过你可以随意使用它~
+          '1': 不知道为什么，无论吃没吃饭，我们都不会饿，也不会饱，我们吃饭纯粹是为了享受美食
+          '2': 我偶尔会翻翻这里的书，翻多了以至于我都快学会书和附魔台的语言了
+          '3': 青金石的来源？都是从商店那里买的。那里总有无穷无尽的资源，但是我从未见过老板补货
+          '4': 有什么需要我帮忙的吗？
+          '5': 这些从附魔台飘出来的文字毫无意义，我不知道这些文字是怎样构成附魔台这么丰富的知识的
+          '6': 附魔的原理？我还真的知道一点。附魔台会吸收周围书架的知识，然后根据知识编写附魔。知识是不断更新和遗忘的
+          '7': 你好呀~
+          '8': 这里的历史？我不太清楚。我的长辈们从未向我提及这里过去发生了什么
+      type: PLAYER
+      attributetrait:
+        attributes:
+          WAYPOINT_TRANSMIT_RANGE: 0.0
+      location:
+        bodyYaw: -90.0
+        worldid: 6b862eef-df1b-494b-9c18-e32159fb7794
+        x: -0.5
+        y: 53.0
+        z: 0.5
+        yaw: -90.0
+        pitch: -81.2538
+    traitnames: scoreboardtrait,owner,spawned,rotationtrait,hologramtrait,skintrait,lookclose,location,text,type,inventory,attributetrait
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false

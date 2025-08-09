@@ -1,0 +1,45 @@
+# AuthMe帮助系统的翻译配置，例如当输入/authme help或/authme help register时显示
+
+# -------------------------------------------------------
+# 帮助部分使用的文本列表
+common:
+    header: '==========[ AuthMeReloaded 帮助 ]=========='
+    optional: '可选'
+    hasPermission: '你有权限'
+    noPermission: '无权限'
+    default: '默认'
+    result: '结果'
+    defaultPermissions:
+        notAllowed: '无权限'
+        opOnly: '仅OP可用'
+        allowed: '所有人可用'
+
+# -------------------------------------------------------
+# 各帮助部分的标题
+# 将翻译文本设为空可禁用该部分，例如隐藏替代命令：
+#   alternatives: ''
+section:
+    command: '命令'
+    description: '简要描述'
+    detailedDescription: '详细说明'
+    arguments: '参数'
+    permissions: '权限'
+    alternatives: '替代命令'
+    children: '子命令'
+
+# -------------------------------------------------------
+# 你可以使用以下模式翻译所有命令的数据。
+# 例如要翻译/authme reload，创建"authme.reload"部分，或"login"翻译/login命令
+# 如果命令有参数，可以使用如下arg1翻译第一个参数，以此类推
+# 翻译不需要完整；任何缺失的部分将默认静默使用英文原版
+# 重要：将主命令如"authme"放在其子命令(如"authme.reload")之前
+commands:
+    authme.register:
+        description: '注册玩家'
+        detailedDescription: '使用指定密码注册指定玩家。'
+        arg1:
+            label: '玩家'
+            description: '玩家名称'
+        arg2:
+            label: '密码'
+            description: '密码'

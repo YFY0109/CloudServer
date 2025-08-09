@@ -1,0 +1,229 @@
+# General / Monitoring settings
+monitoring:
+
+  # Enable or disable the entire plugin
+  isPluginActivated: true
+
+  # Change the language (German (de), English (en), Spanish (es), Portuguese (pl), Russian (ru), 简体中文 (zh))
+  language: "zh"
+
+  # This system is experimental. Players with higher ping are allowed to play more freely and are not directly penalized
+  playerPingManager: true
+
+  # Current penalty when maximum flags are exceeded (Nothing, Kick, Ban)
+  penalty: nothing
+
+  # If enabled, the MineGuard BanSystem will be used, if not, you can use your own ban plugin
+  useMineGuardPunishmentSystem: true
+
+  # The command to be executed when banning (Only works if useMineGuardPunishmentSystem is false)
+  banCommand: ban %player% Client modifications (3rd-party software)
+
+  # The command to be executed when kicking (Only works if useMineGuardPunishmentSystem is false)
+  kickCommand: kick %player% Client modifications (3rd-party software)
+
+  # Maximum flags before punishment
+  penaltyFlags: 5
+
+  # Ban unfair players later (recommended: makes it harder to bypass as players won’t know what caused the ban)
+  queue: false
+
+  # Players will be banned after this time if 'queue' is enabled
+  queueDelayInMinutes: 15
+
+  # Cancels unfair actions from players
+  movementCancel: true
+
+  # Removes flags from players after this time
+  removeFlagDelayInSeconds: 60
+
+  # If server TPS drops below this value, no players will be monitored
+  minimumTPS: 19.0 # Only on paper servers available
+
+  # If a player's ping exceeds this value, they cannot receive flags
+  maximumPlayerPing: 350
+
+# Team settings
+staff:
+
+  # Sends a message to the team when suspicious behavior is detected
+  sendStaffMessage: true
+
+  # If enabled, flags are logged in the console
+  sendConsoleMessages: true
+
+  # Plays a sound to the team when suspicious behavior is detected
+  alertSoundForStaff: true
+
+  # Type of sound to play for the team
+  alertSoundType: ENTITY_ITEM_PICKUP
+
+# Player settings
+player:
+
+  # Sends a message to the player when suspicious behavior is detected
+  sendPlayerMessage: false
+
+  # Plays a sound to the player when suspicious behavior is detected
+  alertSoundForPlayer: false
+
+  # Type of sound to play for the player
+  alertSoundType: ENTITY_ITEM_PICKUP
+
+# AntiCheat settings
+anticheat:
+  clientbrand:
+    a: # Block some clients
+      enabled: false
+      blocked-brands: # Examples:
+      - fabric
+  jesus:
+    a: # Walking on water / lava
+      enabled: true
+      checkDelay: 1
+  fly:
+    a: # General flying
+      enabled: true
+      checkDelay: 5
+      tolerance: 1.55
+    b: # Boat flying
+      enabled: true
+      checkDelay: 1
+    c: # Elytra flying
+      enabled: true
+      checkDelay: 20
+      tolerance: 2.4
+    d: # Gliding
+      enabled: true
+    ignored-blocks: # The anticheat doesn't detect whether the player is legitimately launched by a jump pad or by hacks. Here, you can add blocks that are ignored by fly checks
+    - OAK_PRESSURE_PLATE # Example (If the player moves on this block, the player will be ignored by some checks)
+  spider:
+    a: # Climb up walls
+      enabled: true
+      checkDelay: 11
+      tolerance: 1.6
+  speed:
+    a: # General speed
+      enabled: true
+      checkDelay: 1
+      maximumSpeed: 0.295
+    b: # Bunny-Hop speed
+      enabled: true
+      checkDelay: 1
+      maximumSpeed: 0.92
+    c: # Fast climb
+      enabled: true
+      checkDelay: 1
+      maximumSpeed: 0.25
+    d: # Entity speed
+      enabled: true
+  noclip:
+    a: # Walking through walls
+      enabled: true
+      checkDelay: 1
+  step:
+    a:
+      enabled: true
+      checkDelay: 5
+  antiknockback:
+    a: # No knock-back
+      enabled: true
+      checkDelay: 5
+      tolerance: 0.1
+  noslow:
+    a: # Fast walking through speed-slowed blocks
+      enabled: true
+      checkDelay: 1
+      maximumSuspiciousSpeed: 4
+      type:
+        cobweb:
+          maximumSpeed: 0.065
+        slimeblock:
+          maximumSpeed: 0.18
+        honeyblock:
+          maximumSpeed: 0.17
+        soulsand:
+          maximumSpeed: 0.17
+        powdersnow:
+          maximumSpeed: 0.13
+        sweetberrybush:
+          maximumSpeed: 0.21
+        water:
+          maximumSpeed: 0.2
+        lava:
+          maximumSpeed: 0.08
+  reach:
+    a: # Entity interaction
+      enabled: true
+      maximumDistance: 4.04
+    b: # Block interaction
+      enabled: true
+      maximumDistance: 5.22
+  killaura:
+    a: # Beating at regular intervals
+      enabled: true
+      tolerance: 1
+      maximumSuspiciousHits: 3
+    b: # Hitting multiple entities at once
+      enabled: true
+    c: # Hitting without looking at the entity
+      enabled: true
+      maximumSuspiciousHits: 2
+      minimumDistance: 2.4
+      tolerance: 40
+      maximumYDifference: 1.2
+    d: # Teleport while fighting
+      enabled: true
+      checkDelay: 1
+      maximumDistance: 1.75
+    e: # Punch through walls
+      enabled: true
+      tolerance: 0.95
+      stepSize: 0.05
+    f: # Fake-Player
+      enabled: true
+    g: # Hitting with open inventory
+      enabled: true
+  autoclicker:
+    a: # General auto-clicker
+      enabled: true
+      checkDelay: 20
+      maximumCPS: 18
+    b: # Fast break
+      enabled: true
+      maximumTimeBetweenBreaks: 0.052
+      maximumSuspiciousBreaks: 4
+    c: # Fast place
+      enabled: true
+      maximumTimeBetweenPlacements: 0.052
+      maximumSuspiciousPlacements: 4
+  airplace:
+    a: # Place blocks in the air
+      enabled: true
+  inventorywalk:
+    a: # Running while having your inventory open
+      enabled: true
+      checkDelay: 15
+      maximumDistance: 2.5
+  scaffold:
+    a: # Automatically place blocks under you
+      enabled: true
+      checkDelay: 1
+      pitchLimit: 84.0
+      minimumPitchDifference: 2
+      maximumPitchDifference: 3
+      maximumSpeed: 0.21
+      maximumSuspiciousSpeed: 2
+    b: # Automatically place blocks under you
+      enabled: true
+  nofall:
+    a: # Prevents fall damage
+      enabled: true
+  jump:
+    a: # Change jumping behavior
+      enabled: true
+    b: # Jump in the air
+      enabled: true
+  spoofer:
+    a: # Manipulating positions
+      enabled: true

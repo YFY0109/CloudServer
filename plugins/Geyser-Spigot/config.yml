@@ -1,0 +1,223 @@
+# --------------------------------
+# Geyser 配置文件
+#
+# 《我的世界：基岩版》与《我的世界：Java版》之间的连接桥梁。
+#
+# GitHub：https://github.com/GeyserMC/Geyser
+# Discord：https://discord.gg/geysermc
+# 维基：https://wiki.geysermc.org/
+#
+# 注意：设置指南请参见 https://wiki.geysermc.org/geyser/setup/。许多视频教程已过时。
+# 在大多数情况下，尤其是使用服务器托管提供商时，需要进行特定于托管服务的额外配置。
+# --------------------------------
+
+bedrock:
+  # 用于监听连接的IP地址。
+  # 通常，只有当你想限制可连接到服务器的IP时，才需要取消注释并修改此项。
+  #address: 0.0.0.0
+  # 用于监听连接的端口
+  port: 27152
+  # 某些托管服务会在你每次启动服务器时更改Java版端口，并且要求基岩版使用相同的端口。
+  # 此选项会使基岩版端口在每次启动服务器时与Java版端口保持一致。
+  # 此选项仅适用于插件版本。
+  clone-remote-port: false
+  # 向《我的世界：基岩版》客户端广播的服务器描述（MOTD）。如果“passthrough-motd”设为true，则此项无效
+  # 如果其中任何一项为空，相应的字符串将默认设为“Geyser”
+  motd1: "Geyser"
+  motd2: "Another Geyser server."
+  # 发送给《我的世界：基岩版》客户端的服务器名称。在暂停菜单和设置菜单中均可看到。
+  server-name: "Geyser"
+  # 对发送到基岩版客户端的网络流量的压缩程度。数值越高，CPU使用率越高，但是
+  # 占用的带宽越小。在-1以下或9以上无效。设为-1可禁用压缩。
+  compression-level: 6
+  # 是否为客户端启用PROXY协议。除非你在Geyser实例前运行UDP反向代理，
+  # 否则不需要此功能。
+  enable-proxy-protocol: false
+  # 允许使用PROXY协议的代理IP地址/子网列表。仅当“enable-proxy-protocol”启用时有效，并且
+  # 仅在无法使用适当防火墙时使用（通常在共享托管服务提供商等情况下）。
+  # 保持此列表为空意味着没有IP地址白名单。
+  # 支持IP地址和子网。
+  #proxy-protocol-whitelisted-ips: [ "127.0.0.1", "172.18.0.0/16" ]
+remote:
+  # 远程（Java版）服务器的IP地址
+  # 如果设为“auto”，独立版本的远程地址将设为127.0.0.1，
+  # 对于插件版本，建议保持为“auto”，以便Geyser自动配置地址、端口和认证类型。
+  # 如果安装了floodgate，请保持为“auto”。
+  address: auto
+  # 远程（Java版）服务器的端口
+  # 对于插件版本，如果地址设为“auto”，端口也将跟随服务器的监听端口。
+  port: 27948
+  # 认证类型。可以是offline（离线）、online（在线）或floodgate（参见https://github.com/GeyserMC/Geyser/wiki/Floodgate）。
+  # 对于插件版本，建议将`address`字段设为“auto”，以便自动配置Floodgate支持。
+  # 如果安装了Floodgate且`address:`设为“auto”，则会自动使用“auth-type: floodgate”。
+  auth-type: floodgate
+  # 允许通过Geyser使用基于密码的认证方法。仅在在线模式下有用。
+  # 如果设为false，用户必须使用Geyser在其桌面提供的代码向Microsoft认证。
+  allow-password-authentication: true
+  # 连接服务器时是否启用PROXY协议。
+  # 仅在以下情况有用：
+  # 1) 你的服务器支持PROXY协议（可能不支持）
+  # 2) 你运行的Velocity或BungeeCord在代理主配置中启用了此选项。
+  # 如果你不知道这是什么，不要修改！
+  use-proxy-protocol: false
+  # 将基岩版客户端用于连接的主机名转发到Java版服务器
+  # 旨在用于代理上的强制主机。
+  forward-hostname: false
+
+# Floodgate使用加密来确保仅授权来源可以使用。
+# 此项应指向Floodgate（BungeeCord、Spigot或Velocity）生成的公钥
+# 不使用Floodgate时可忽略此项。
+# 如果你在同一服务器上使用Floodgate的插件版本，将自动从Floodgate获取密钥。
+floodgate-key-file: key.pem
+
+# 仅适用于在线模式认证类型。
+# 存储登录后应保存其Java版账户的基岩版玩家列表。
+# 这会保存一个可用于稍后认证玩家的令牌。这不保存电子邮件或密码，
+# 但在添加到此列表并允许他人访问此Geyser实例的文件时，仍应保持谨慎。
+# 从列表中移除名称将在下次Geyser启动时删除其缓存的登录信息。
+# 令牌将保存在与此配置文件同一文件夹中名为“saved-refresh-tokens.json”的文件中。
+saved-user-logins:
+  - ThisExampleUsernameShouldBeLongEnoughToNeverBeAnXboxUsername
+  - ThisOtherExampleUsernameShouldAlsoBeLongEnough
+
+# 指定等待用户授权Geyser访问其Microsoft账户的秒数。
+# 在此期间允许用户断开与服务器的连接。
+pending-authentication-timeout: 120
+
+# 如果向基岩版客户端提供大量命令，它们在首次打开命令提示符时可能会冻结。
+# 禁用此项将阻止发送命令建议，并解决基岩版客户端的冻结问题。
+command-suggestions: true
+
+# 以下三个选项启用“ping穿透”——从Java版服务器获取MOTD、玩家数量和/或协议名称。
+# 将远程服务器的MOTD转发给基岩版玩家。
+passthrough-motd: true
+# 将远程服务器的玩家数量和最大玩家数转发给基岩版玩家。
+passthrough-player-counts: true
+# 启用传统ping穿透。除非你的MOTD或玩家数量显示不正常，否则无需启用。
+# 此选项在独立版本上无效。
+legacy-ping-passthrough: false
+# ping远程服务器的间隔时间（秒）。仅与独立版本或传统ping穿透相关。
+# 如果出现BrokenPipe错误，请增大此值。
+ping-passthrough-interval: 3
+
+# 是否将玩家的ping转发到服务器。启用此选项将允许基岩版玩家获得更准确的
+# ping，但也可能导致玩家更容易超时。
+forward-player-ping: false
+
+# 可连接的最大玩家数量。目前这仅为视觉效果，不会实际限制玩家数量。
+max-players: 2333
+
+# 是否通过控制台发送调试消息
+debug-mode: false
+
+# 允许显示第三方披风。目前允许：
+# OptiFine披风、LabyMod披风、5Zig披风以及MinecraftCapes
+allow-third-party-capes: true
+
+# 允许显示第三方deadmau5耳朵。目前允许：
+# MinecraftCapes
+allow-third-party-ears: false
+
+# 允许发送模拟的冷却指示器。否则基岩版玩家看不到冷却，因为它们仍使用1.8版本的战斗机制。
+# 请注意：如果启用冷却，某些用户在冷却期间可能会看到黑框，如下所示：
+# https://cdn.discordapp.com/attachments/613170125696270357/957075682230419466/Screenshot_from_2022-03-25_20-35-08.png
+# 可通过基岩版设置中的辅助功能选项卡将“文本背景不透明度”设为0来禁用此黑框
+# 此设置可设为“title”（标题）、“actionbar”（动作栏）或“false”（禁用）
+show-cooldown: title
+
+# 控制是否向玩家显示坐标。
+show-coordinates: true
+
+# 是否阻止基岩版玩家使用其脚手架式的搭桥方式。
+disable-bedrock-scaffolding: false
+
+# 如果设置，当基岩版玩家执行任何表情动作时，将交换副手和主手物品，就像Java版的键位绑定一样
+# 此项有三个可设置的选项：
+# disabled - 默认/备用选项，不应用此解决方法
+# no-emotes - 表情动作不会发送给其他基岩版客户端，且副手会被交换。这实际上禁用了所有可见的表情动作。
+# emotes-and-offhand - 表情动作会发送给基岩版客户端，且副手会被交换
+emote-offhand-workaround: "disabled"
+
+# 如果没有客户端请求的语言环境，将使用默认语言环境。取消注释可不使用默认系统语言。
+# default-locale: en_us
+
+# 指定图像将缓存到磁盘的天数，以避免从互联网下载。
+# 值为0表示禁用。（默认：0）
+cache-images: 0
+
+# 允许显示自定义头颅。在较旧/较弱的设备上启用可能会导致性能下降。
+allow-custom-skulls: true
+
+# 每个玩家可显示的最大自定义头颅数量。增大此值可能会降低较弱设备的性能。
+# 设为-1将显示所有自定义头颅，无论距离或数量。
+max-visible-custom-skulls: 128
+
+# 玩家周围显示自定义头颅的半径（以方块为单位）。
+custom-skull-render-distance: 32
+
+# 是否添加基岩版中通常不存在的任何物品和方块。
+# 仅当使用不采用“传输数据包”式服务器切换的代理时，才需要禁用此项。
+# 如果禁用此项，熔炉矿车物品将映射到漏斗矿车物品。
+# Geyser的方块、物品和头颅映射系统也将被禁用。
+# 更改此选项需要重启Geyser才能生效。
+add-non-bedrock-items: true
+
+# 基岩版阻止在下界Y127以上放置和显示方块。
+# 此配置选项通过将下界维度ID更改为末地ID来解决此问题。
+# 主要缺点是整个下界将有相同的红色雾气，而不是每个生物群系有不同的雾气。
+above-bedrock-nether-building: true
+
+# 如果有资源包，强制客户端加载所有资源包。
+# 如果设为false，即使用户不想下载资源包，也允许其连接到服务器。
+force-resource-packs: true
+
+# 允许解锁Xbox成就。
+# 这将禁用基岩版游戏中所有命令的成功运行，否则基岩版会认为你在作弊。
+xbox-achievements-enabled: false
+
+# 服务器是否记录玩家的IP地址。
+log-player-ip-addresses: true
+
+# 是否向控制台和管理员提醒有支持此Geyser版本不支持的基岩版版本的新Geyser版本可用。建议保持启用此选项，因为许多基岩版平台会自动更新。
+notify-on-new-bedrock-update: true
+
+# 用于标记基岩版玩家 inventory 中不可用槽位的物品。例如创造模式下的2x2合成格子，
+# 或尺寸不同于通常3x9的自定义 inventory 菜单。默认物品是屏障方块。
+unusable-space-block: minecraft:barrier
+
+# bStats是一个完全匿名的统计跟踪器，仅跟踪关于Geyser的基本信息，
+# 例如在线人数、使用Geyser的服务器数量、使用的操作系统等。你可以在此了解更多关于bStats的信息：https://bstats.org/。
+# https://bstats.org/plugin/server-implementation/GeyserMC
+metrics:
+  # 是否启用统计
+  enabled: true
+  # 服务器的UUID，不要更改！
+  uuid: 90ed1ca0-4c46-4d2a-b493-c9650342b1e0
+
+# 高级选项 - 除非你知道自己在做什么，否则不要触碰！
+
+# Geyser会在每个计分板数据包后更新计分板，但当Geyser尝试每秒处理
+# 大量计分板数据包时，可能会导致严重的延迟。
+# 此选项允许你指定每秒多少个计分板数据包后，
+# 计分板更新将限制为每秒四次。
+scoreboard-packet-threshold: 20
+
+# 允许来自ProxyPass和Waterdog的连接。
+# 参见https://www.spigotmc.org/wiki/firewall-guide/获取帮助 - 使用UDP而非TCP。
+enable-proxy-connections: false
+
+# 互联网支持的最大MTU为1492，但可能会导致数据包碎片问题。
+# 默认值为1400。
+mtu: 1400
+
+# 是否不创建TCP连接而直接连接到Java版服务器。
+# 仅当与数据包或网络交互的插件不能与Geyser正常工作时，才应禁用此项。
+# 如果在插件版本上启用，将忽略远程地址和端口部分
+# 如果在插件版本上禁用，可能会导致性能下降和延迟增加
+use-direct-connection: true
+
+# Geyser是否应尝试为基岩版玩家禁用压缩。当Java版数据包不在网络上传输时，无需压缩数据，因此这应该是有益的。
+# 这需要use-direct-connection设为true。
+disable-compression: true
+
+config-version: 4

@@ -1,0 +1,43 @@
+on every 10 seconds:
+	loop players in world "level1":
+		set {_gamemode} to loop-player's gamemode
+		if "%{_gamemode}%" is "survival":
+			set {_temp} to random integer between -10 and 10
+			if {_temp} > 0:
+				set {_temp} to {_temp} - 1
+				apply potion of speed {_temp} without particles to loop-player for 10 seconds
+			else if {_temp} < 0:
+				set {_temp} to -1 - {_temp}
+				apply potion of slowness {_temp} without particles to loop-player for 10 seconds
+
+on chunk load:
+	if {load_chunk} <= 50:
+		# 获取区块信息
+		set {_world} to event-chunk's world
+		if {_world} is "level1":
+			set {_x} to chunk x of event-chunk
+			set {_z} to chunk z of event-chunk
+			if {_x} is 0:
+				# 计算目标位置（区块左下角坐标）
+				set {_target_x} to {_x} * 16
+				set {_target_z} to {_z} * 16
+				set {_target_loc} to location({_target_x}, -61, {_target_z}, {_world})
+				
+				# 检查目标位置是否是草方块（判断是否已生成地形）
+				if block at {_target_loc} is grass block:
+					# 执行地形生成命令
+					execute console command "execute in level1 run clone 0 -54 0 15 -49 15 %{_target_x}% -61 %{_target_z}%"
+					send action bar "已生成区块: [%{_x}%, %{_z}%]" to ops
+					set {load_chunk} to {load_chunk} + 1
+			else if {_x} is 1:
+				# 计算目标位置（区块左下角坐标）
+				set {_target_x} to {_x} * 16
+				set {_target_z} to {_z} * 16
+				set {_target_loc} to location({_target_x}, -61, {_target_z}, {_world})
+				
+				# 检查目标位置是否是草方块（判断是否已生成地形）
+				if block at {_target_loc} is grass block:
+					# 执行地形生成命令
+					execute console command "execute in level1 run clone 16 -54 0 31 -49 15 %{_target_x}% -61 %{_target_z}%"
+					send action bar "已生成区块: [%{_x}%, %{_z}%]" to ops
+					set {load_chunk} to {load_chunk} + 1

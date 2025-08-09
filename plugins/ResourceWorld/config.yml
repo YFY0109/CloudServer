@@ -1,0 +1,354 @@
+# +----------------------------------------------------------------------------------------------+
+# |                                                                                              |
+# |                                         资源世界插件                                          |
+# |                                                                                              |
+# |                               Discord: https://discord.gg/m7j2Y9H                            |
+# |                                                                                              |
+# |                                           作者: Nik                                           |
+# |                                                                                              |
+# +----------------------------------------------------------------------------------------------+
+# 插件通用设置
+settings:
+
+  # 是否在启动时检查更新？
+  check_for_updates: true
+
+  # 重置发生后，玩家将被传送到的世界
+  main_spawn_world: world
+
+  # 如果玩家在资源世界内退出游戏，是否将其传送到出生点？
+  teleport_to_spawn_on_quit: true
+
+  # 设置剩余时间的显示格式
+  reset_format: '%days% 天 %hours% 小时 %minutes% 分钟 %seconds% 秒'
+
+# 主世界设置
+world:
+
+  # 是否启用主世界资源世界？
+  enabled: true
+
+  # 资源世界的名称是什么？
+  world_name: resource_world
+
+  # 这个世界是否生成结构？（村庄等）
+  generate_structures: true
+
+  # 可用世界类型：NORMAL（普通）、FLAT（超平坦）、LARGE_BIOMES（大型生物群系）、AMPLIFIED（放大化）
+  world_type: NORMAL
+
+  # 可用环境类型：NORMAL（主世界）、NETHER（下界）、THE_END（末地）
+  environment: NORMAL
+
+  # 种子设置
+  custom_seed:
+
+    # 是否使用自定义种子？
+    enabled: false
+
+    # 要使用的种子
+    seed: -686298914
+
+  # 世界边界设置
+  world_border:
+
+    # 是否启用世界边界？
+    enabled: true
+
+    # 边界大小（注意：例如如果将世界边界设置为2000，那么一侧是1000，另一侧也是1000）
+    size: 4000
+
+  # 是否启用PVP？
+  allow_pvp: false
+
+  # 资源世界是否永远是白天？
+  always_day: false
+
+  # 是否禁用窒息伤害？
+  disable_suffocation_damage: true
+
+  # 难度选项：EASY（简单）、NORMAL（普通）、HARD（困难）、PEACEFUL（和平）
+  difficulty: HARD
+
+  # 玩家在资源世界内死亡时，是否保留其物品栏物品？
+  keep_inventory_on_death: true
+
+  # 世界重置设置
+  automated_resets:
+
+    # 是否希望资源世界自动重置？
+    enabled: true
+
+    # 资源世界重置的间隔时间（以小时为单位）
+    interval: 24
+
+    # 是否希望插件在服务器关闭时保存剩余的重置时间，并在服务器再次启动时使用该剩余时间？
+    store_time_on_shutdown: true
+
+  # 世界生成后执行特定命令
+  commands_after_reset:
+
+    # 是否启用此功能？
+    enabled: true
+
+    # 重置后将执行以下列出的命令
+    commands:
+      - title @p title {"text":"资源世界","color":"green"}
+      - title @p subtitle {"text":"已重置！","color":"green"}
+
+  # 禁用命令设置
+  disabled_commands:
+
+    # 是否启用此功能？
+    enabled: false
+
+    # 在该世界内执行以下列出的命令将被禁用
+    commands:
+      - /sethome
+      - /claim
+      - /setwarp
+      - /tpahere
+
+# 下界设置
+nether:
+
+  # 是否启用下界资源世界？
+  enabled: true
+
+  # 下界资源世界的名称是什么？
+  world_name: resource_nether
+
+  # 这个世界是否生成结构？（村庄等）
+  generate_structures: true
+
+  # 传送门设置
+  portals:
+
+    # 是否希望将传送门与资源世界同步？例如，玩家进入下界传送门后，会进入下界资源世界而不是默认下界
+    override: false
+
+    # 使传送门位置行为与原版类似
+    vanilla_portal_ratio: true
+
+    # 玩家在下界内进入下界传送门后，希望将其传送到的世界
+    portal_world: world
+
+    # 如果为false，玩家从任何世界进入下界传送门，都会被传送到下界资源世界；如果为true，只有从资源世界进入传送门，才能到达下界资源世界
+    only_resource: true
+
+  # 可用世界类型：NORMAL（普通）、FLAT（超平坦）、LARGE_BIOMES（大型生物群系）、AMPLIFIED（放大化）
+  world_type: NORMAL
+
+  # 可用环境类型：NORMAL（主世界）、NETHER（下界）、THE_END（末地）
+  environment: NETHER
+
+  # 种子设置
+  custom_seed:
+
+    # 是否使用自定义种子？
+    enabled: false
+
+    # 要使用的种子
+    seed: -686298914
+
+  # 世界边界设置
+  world_border:
+
+    # 是否启用世界边界？
+    enabled: true
+
+    # 边界大小（注意：例如如果将世界边界设置为2000，那么一侧是1000，另一侧也是1000）
+    size: 4000
+
+  # 是否启用PVP？
+  allow_pvp: false
+
+  # 是否禁用窒息伤害？
+  disable_suffocation_damage: true
+
+  # 难度选项：EASY（简单）、NORMAL（普通）、HARD（困难）、PEACEFUL（和平）
+  difficulty: HARD
+
+  # 玩家在下界资源世界内死亡时，是否保留其物品栏物品？
+  keep_inventory_on_death: true
+
+  # 世界重置设置
+  automated_resets:
+
+    # 是否希望下界资源世界自动重置？
+    enabled: true
+
+    # 下界资源世界重置的间隔时间（以小时为单位）
+    interval: 24
+
+    # 是否希望插件在服务器关闭时保存剩余的重置时间，并在服务器再次启动时使用该剩余时间？
+    store_time_on_shutdown: true
+
+  # 世界生成后执行特定命令
+  commands_after_reset:
+
+    # 是否启用此功能？
+    enabled: true
+
+    # 重置后将执行以下列出的命令
+    commands:
+      - title @p title {"text":"下界资源世界","color":"green"}
+      - title @p subtitle {"text":"已重置！","color":"green"}
+
+  # 禁用命令设置
+  disabled_commands:
+
+    # 是否启用此功能？
+    enabled: false
+
+    # 在该世界内执行以下列出的命令将被禁用
+    commands:
+      - /sethome
+      - /claim
+      - /setwarp
+      - /tpahere
+
+# 末地设置
+end:
+
+  # 是否启用末地资源世界？
+  enabled: true
+
+  # 末地资源世界的名称是什么？
+  world_name: resource_end
+
+  # 这个世界是否生成结构？（村庄等）
+  generate_structures: true
+
+  # 传送门设置
+  portals:
+
+    # 是否希望将传送门与资源世界同步？例如，玩家进入下界传送门后，会进入下界资源世界而不是默认下界
+    override: false
+
+    # 玩家在末地内进入末地传送门后，希望将其传送到的世界
+    portal_world: world
+
+    # 如果为false，玩家从任何世界进入末地传送门，都会被传送到末地资源世界；如果为true，只有从资源世界进入传送门，才能到达末地资源世界
+    only_resource: true
+
+  # 可用世界类型：NORMAL（普通）、FLAT（超平坦）、LARGE_BIOMES（大型生物群系）、AMPLIFIED（放大化）
+  world_type: NORMAL
+
+  # 可用环境类型：NORMAL（主世界）、NETHER（下界）、THE_END（末地）
+  environment: THE_END
+
+  # 种子设置
+  custom_seed:
+
+    # 是否使用自定义种子？
+    enabled: false
+
+    # 要使用的种子
+    seed: -686298914
+
+  # 世界边界设置
+  world_border:
+
+    # 是否启用世界边界？
+    enabled: true
+
+    # 边界大小（注意：例如如果将世界边界设置为2000，那么一侧是1000，另一侧也是1000）
+    size: 4000
+
+  # 是否启用PVP？
+  allow_pvp: false
+
+  # 是否禁用窒息伤害？
+  disable_suffocation_damage: true
+
+  # 难度选项：EASY（简单）、NORMAL（普通）、HARD（困难）、PEACEFUL（和平）
+  difficulty: HARD
+
+  # 玩家在末地资源世界内死亡时，是否保留其物品栏物品？
+  keep_inventory_on_death: true
+
+  # 世界重置设置
+  automated_resets:
+
+    # 是否希望末地资源世界自动重置？
+    enabled: true
+
+    # 末地资源世界重置的间隔时间（以小时为单位）
+    interval: 24
+
+    # 是否希望插件在服务器关闭时保存剩余的重置时间，并在服务器再次启动时使用该剩余时间？
+    store_time_on_shutdown: true
+
+  # 世界生成后执行特定命令
+  commands_after_reset:
+
+    # 是否启用此功能？
+    enabled: true
+
+    # 重置后将执行以下列出的命令
+    commands:
+      - title @p title {"text":"末地资源世界","color":"green"}
+      - title @p subtitle {"text":"已重置！","color":"green"}
+
+  # 禁用命令设置
+  disabled_commands:
+
+    # 是否启用此功能？
+    enabled: false
+
+    # 在该世界内执行以下列出的命令将被禁用
+    commands:
+      - /sethome
+      - /claim
+      - /setwarp
+      - /tpahere
+
+# 传送设置
+teleport_settings:
+
+  # 玩家传送到资源世界所需的费用（需要Vault插件支持）
+  price: 0
+
+  # 传送冷却时间（两次传送之间的间隔）
+  cooldown: 30
+
+  # 传送延迟时间（执行命令后多久开始传送）
+  delay: 3
+
+  # 玩家在主世界资源世界中被传送的最大X、Z坐标范围
+  # 请勿将此值设置得大于世界边界
+  world_max_teleport_range: 2000
+
+  # 玩家在下界资源世界中被传送的最大X、Z坐标范围
+  # 请勿将此值设置得大于世界边界
+  nether_max_teleport_range: 2000
+
+  # 玩家在末地资源世界中被传送的最大X、Z坐标范围
+  # 请勿将此值设置得大于世界边界
+  end_max_teleport_range: 2000
+
+  # 效果设置
+  effects:
+
+    # 是否希望玩家在传送后获得一个效果？
+    enabled: true
+
+    # 可用效果列表：https://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionEffectType.html
+    effect: ABSORPTION
+
+    # 效果持续时间
+    duration: 5
+
+    # 效果等级（ amplifier + 1 为实际等级）
+    amplifier: 2
+
+  # 声音设置
+  sounds:
+
+    # 玩家传送后是否播放声音？
+    enabled: true
+
+    # 应选择Spigot API中存在的声音
+    # 声音列表：https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+    sound: ENTITY_ENDERMAN_TELEPORT

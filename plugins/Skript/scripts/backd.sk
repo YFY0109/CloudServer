@@ -1,0 +1,14 @@
+on death of player:
+	set {back::%victim's uuid%} to location of victim
+	send "&e死亡位置已保存! 输入 &6/back &e返回死亡点" to victim
+	
+command /back:
+	trigger:
+		if {back::%player's uuid%} is not set:
+			send "&c你没有可返回的死亡位置!" to player
+			stop trigger
+			
+		set {_loc} to {back::%player's uuid%}
+		
+		teleport player to {_loc}
+		send "&a已传送回死亡位置 &7(X: %x-coordinate of {_loc}%, Y: %y-coordinate of {_loc}%, Z: %z-coordinate of {_loc}%)" to player

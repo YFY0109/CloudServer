@@ -1,0 +1,21 @@
+# Do not modify this value.
+version: 2
+# The maximum size of item frame matrix.
+# 32 x 18 means image can not be larger than 4096 x 2304 pixels.
+# Don't set this value too large, it may cause lag.
+max-frame-x: 32
+max-frame-y: 18
+# Language of the plugin, see others in the plugins/FurnitureCore/languages folder.
+language: en_us
+# Enable economy system. (Require Vault and an economy plugin)
+# If true, players need to pay for each map they create.
+# This may prevent players from abusing usage of the plugin.
+economy:
+  enable: false
+  cost-per-map: 100.0
+# The whitelist of image url address, use this to prevent players from using inappropriate images.
+# Leave it empty to allow all addresses.
+address-white-list:
+- ''
+# Debug mode, if report bugs turn this on.
+debug: false

@@ -1,0 +1,127 @@
+#默认 在线 离线 半在线
+#默认模式会自动检测玩家的UUID（支持GeyserMC）
+#在线模式更适合启用在线验证的服务器（支持Yggdrasil）
+#离线模式不支持忽略用户名大小写
+#如果使用floodgate（GeyserMC）且'username-prefix'选项设为空，请使用半在线模式
+UUID-mode: Default
+
+#在转换模式下，可使用命令'/xconomy'从基于Vault的其他插件导入数据
+#冲突数据将被跳过，导入的数据会保存在XConomy/importdata/data.yml
+#此模式下XConomy不会正常启动
+#转换完成后请检查数据并关闭此模式
+#Sponge版本无此功能
+Importdata-mode: false
+
+
+#设置
+Settings:
+  #简体中文 繁体中文 英语 法语 西班牙语 俄语 土耳其语 日语 德语
+  #印尼语 葡萄牙语 意大利语
+  language: Chinese
+  #是否检查新版本
+  check-update: true
+  #TOP10和服务器总额刷新时间间隔（秒）
+  refresh-time: 60
+  #若设为true，XConomy将注册以下命令：
+    # - economy
+    # - eco
+    # - ebalancetop
+    # - ebaltop
+    # - eeconomy
+  #请注意如果服务器安装了Essentials
+  #XConomy将接管这些命令
+  eco-command: true
+  #XConomy将禁用Essentials的经济功能
+  #仅经济功能
+  disable-essentials: true
+  #初始余额
+  initial-bal: 1000
+  #支付命令的税率（0.5表示50%，1表示100%）
+  payment-tax: 0.02
+  #排行榜显示数量（最大值100）
+  ranking-size: 10
+  #列表每页行数（排行榜和帮助菜单）
+  lines-per-page: 5
+  #如需直接修改数据库中的数据，建议启用
+  #禁用缓存后将不支持数据的异步保存
+  #禁用缓存会增加数据库压力
+  disable-cache: false
+  #是否保存交易记录
+  #仅支持MySQL
+  transaction-record: true
+  #记录玩家离线时的支付命令交易信息
+  #玩家重连时将收到提示
+  #必须启用交易记录功能
+  offline-pay-transfer-tips: false
+  #忽略玩家名大小写
+  username-ignore-case: false
+
+
+#可解决某些插件需要创建非玩家账户的问题（如Factions）
+#==========================================================================================
+#默认支持的插件（无需启用非玩家账户功能）
+#Towny
+#==========================================================================================
+#非玩家账户数据不与BC同步
+non-player-account:
+  #是否启用非玩家账户
+  enable: false
+  #若账户名包含白名单中的字段，将被识别为非玩家账户
+  #否则识别为玩家账户
+  #若玩家名包含白名单字段，将被拒绝进入服务器
+  #此功能可减少数据库读取次数
+  whitelist:
+    #是否启用白名单
+    enable: false
+    fields-list:
+      - tax
+      - nation-
+
+
+#货币显示设置
+Currency:
+  singular-name: Yun
+  plural-name: Yun
+  #余额是否为整数
+  integer-bal: false
+  #金额超位时的舍入方式
+  #0表示向下取整，1表示向上取整
+  rounding-mode: 0
+  thousands-separator: ','
+  #%format_balance%表示格式化后的余额
+  display-format: '%balance% %currencyname%'
+  #最大金额（默认为最大值）
+  max-number: '10000000000000000'
+  format-balance:
+    1000: k
+    1000000: m
+
+
+#数据同步设置
+SyncData:
+  #是否启用多服务器间数据同步
+  enable: false
+  #BungeeCord Redis
+  #================================================== BungeeCord通道 ==================================================
+  #开启BungeeCord同步后，控制台和其他插件将无法修改无玩家在线的服务器中的余额
+  #请在spigot.yml中将bungeecord设为true
+  #==================================================   Redis通道   ==================================================
+  #需要'slf4j'依赖
+  channel-type: BungeeCord
+  #服务器ID，需保持需要同步的服务器间ID与MySQL设置一致
+  sign: aa
+
+
+#线程设置
+Thread:
+  #设置CompletableFuture的超时时长
+  #单位为秒
+  future-timeout: 3
+
+
+#区域线程设置（仅对Folia服务器有效）
+Region-Thread:
+  #执行同步线程时，将在下方指定范围内随机选择坐标执行
+  world: world
+  range-x: 1024
+  range-y: 1024

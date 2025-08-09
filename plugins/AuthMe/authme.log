@@ -1,0 +1,142 @@
+[08-08 14:55:45]: [INFO] Created column 'regdate' and set the current timestamp, 1754636145917, to all 0 rows
+[08-08 14:55:46]: [INFO] SQLite Setup finished
+[08-08 14:55:46]: [INFO] Hooked into LuckPerms!
+[08-08 14:55:46]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[08-08 14:55:46]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[08-08 14:55:46]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[08-08 14:55:46]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[08-08 14:55:46]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[08-08 14:55:46]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[08-08 14:55:46]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:354)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:271)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:221)
+	at AuthMe.jar//fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at AuthMe.jar//fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at AuthMe.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at AuthMe.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+[08-08 14:56:14]: [FINE] baiYunMieAwa registered 111.76.143.34
+[08-08 14:56:14]: [FINE] baiYunMieAwa logged in 111.76.143.34
+[08-08 15:14:34]: [FINE] LGZYGG registered 223.73.123.241
+[08-08 15:14:34]: [FINE] LGZYGG logged in 223.73.123.241
+[08-08 15:14:39]: [FINE] XhyOwO registered 171.9.24.71
+[08-08 15:14:39]: [FINE] XhyOwO logged in 171.9.24.71
+[08-08 15:23:27]: [FINE] baiYunMieAwa logged in 111.76.143.34
+[08-08 15:32:58]: [FINE] Guxiaoge registered 223.98.237.132
+[08-08 15:32:58]: [FINE] Guxiaoge logged in 223.98.237.132
+[08-08 15:41:04]: [FINE] ncpop registered 223.83.15.153
+[08-08 15:41:04]: [FINE] ncpop logged in 223.83.15.153
+[08-08 18:36:44]: [FINE] xXNoobestXx registered 117.87.166.1
+[08-08 18:36:44]: [FINE] xXNoobestXx logged in 117.87.166.1
+[08-08 19:05:38]: [FINE] YFY0109 registered 219.245.143.128
+[08-08 19:05:38]: [FINE] YFY0109 logged in 219.245.143.128
+[08-08 19:11:35]: [FINE] ncpop logged in 223.83.15.153
+[08-08 19:31:07]: [INFO] AuthMe 5.6.0-bCUSTOM disabled!
+[08-08 19:31:43]: [INFO] SQLite Setup finished
+[08-08 19:31:43]: [INFO] Hooked into LuckPerms!
+[08-08 19:31:43]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[08-08 19:31:44]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[08-08 19:31:44]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[08-08 19:31:44]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[08-08 19:31:44]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[08-08 19:31:44]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[08-08 19:31:44]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:354)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:271)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:221)
+	at AuthMe.jar//fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at AuthMe.jar//fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at AuthMe.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at AuthMe.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+[08-08 19:32:14]: [FINE] ncpop logged in 223.83.15.153
+[08-08 19:32:26]: [FINE] YFY0109 logged in 219.245.143.128
+[08-08 19:37:07]: [INFO] Unhooked from Permissions!
+[08-08 19:37:07]: [INFO] Hooked into LuckPerms!
+[08-08 19:37:07]: [INFO] SQLite Setup finished
+[08-08 19:37:07]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[08-08 19:51:36]: [FINE] YFY0109 logged in 219.245.143.128
+[08-08 20:04:48]: [FINE] ncpop logged in 223.83.15.153
+[08-08 21:02:04]: [FINE] ncpop logged in 223.83.15.153
+[08-08 22:20:14]: [FINE] YFY0109 logged in 219.245.143.128
+[08-08 22:27:14]: [FINE] ncpop logged in 223.83.15.153
+[08-08 22:31:56]: [FINE] ncpop logged in 223.83.15.153
+[08-08 23:03:13]: [FINE] YFY0109 logged in 219.245.143.128
+[08-09 00:34:13]: [FINE] YFY0109 logged in 219.245.143.128
+[08-09 01:28:33]: [FINE] YFY0109 logged in 219.245.143.128
+[08-09 01:41:58]: [FINE] YFY0109 logged in 219.245.143.128
+[08-09 02:07:33]: [FINE] YFY0109 logged in 219.245.143.128
+[08-09 02:13:15]: [FINE] YFY0109 logged in 219.245.143.128
+[08-09 02:14:07]: [FINE] YFY0109 logged in 219.245.143.128
+[08-09 02:22:17]: [FINE] YFY0109 logged in 219.245.143.128
+[08-09 02:25:35]: [FINE] YFY0109 logged in 219.245.143.128
+[08-09 08:16:46]: [FINE] ncpop logged in 223.83.15.153
+[08-09 08:27:40]: [FINE] ncpop logged in 223.83.15.153
+[08-09 08:48:49]: [FINE] ncpop logged in 223.83.15.153
+[08-09 09:21:07]: [FINE] Guxiaoge logged in 223.98.237.132
+[08-09 11:39:42]: [FINE] ncpop logged in 223.83.15.153
+[08-09 13:03:47]: [FINE] YFY0109 logged in 219.245.143.128
+[08-09 13:10:43]: [FINE] YFY0109 logged in 219.245.143.128
+[08-09 13:12:27]: [FINE] ncpop logged in 223.83.15.153
+[08-09 13:21:35]: [FINE] ncpop logged in 223.83.15.153
+[08-09 13:41:20]: [INFO] AuthMe 5.6.0-bCUSTOM disabled!
+[08-09 13:41:57]: [INFO] SQLite Setup finished
+[08-09 13:41:57]: [INFO] Hooked into LuckPerms!
+[08-09 13:41:57]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[08-09 13:41:57]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[08-09 13:41:58]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[08-09 13:41:58]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[08-09 13:41:58]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[08-09 13:41:58]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[08-09 13:41:58]: java.io.FileNotFoundException: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:354)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:271)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:221)
+	at AuthMe.jar//fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at AuthMe.jar//fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at AuthMe.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at AuthMe.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+
+[08-09 13:42:15]: [FINE] YFY0109 logged in 219.245.143.128
+[08-09 13:42:20]: [FINE] ncpop logged in 223.83.15.153
+[08-09 13:47:06]: [FINE] YFY0109 logged in 219.245.143.128
+[08-09 14:00:43]: [FINE] YFY0109 logged in 219.245.143.128
+[08-09 14:28:05]: [FINE] LGZYGG logged in 223.73.123.241
+[08-09 15:46:21]: [FINE] YFY0109 logged in 219.245.143.128
+[08-09 15:50:39]: [FINE] ncpop logged in 223.83.15.153
+[08-09 16:39:01]: [FINE] baiYunMieAwa logged in 115.151.188.101
+[08-09 16:39:06]: [FINE] LGZYGG logged in 223.73.123.241
+[08-09 16:52:13]: [FINE] baiYunMieAwa logged in 115.151.188.101
+[08-09 17:01:48]: [FINE] baiYunMieAwa logged in 115.151.188.101
+[08-09 17:04:17]: [FINE] baiYunMieAwa logged in 115.151.188.101
+[08-09 17:43:32]: [FINE] ncpop logged in 223.83.15.153
+[08-09 20:27:07]: [FINE] YFY0109 logged in 219.245.143.128
+[08-09 20:45:08]: [FINE] ncpop logged in 223.83.15.153
+[08-09 21:30:06]: [FINE] YFY0109 logged in 219.245.143.128
+[08-09 21:38:52]: [FINE] YFY0109 logged in 219.245.143.128
+[08-09 22:07:38]: [FINE] YFY0109 logged in 219.245.143.128
+[08-09 22:51:00]: [FINE] YFY0109 used the wrong password
+[08-09 22:51:09]: [FINE] YFY0109 logged in 219.245.143.128
+[08-09 22:54:59]: [FINE] YFY0109 logged in 219.245.143.128

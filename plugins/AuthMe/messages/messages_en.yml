@@ -1,0 +1,157 @@
+# 全局标签列表:
+# %nl% - 换行符
+# %username% - 替换为接收消息的玩家用户名
+# %displayname% - 替换为接收消息的玩家昵称(含颜色代码)
+
+# 注册相关
+registration:
+  register_request: '&3请使用指令注册账号: /register <密码> <确认密码>'
+  command_usage: '&c用法: /register <密码> <确认密码>'
+  reg_only: '&4只有注册用户才能加入服务器！请访问 http://example.com 进行注册'
+  kicked_admin_registered: '管理员已为您注册账号，请重新登录'
+  success: '&2注册成功！'
+  disabled: '&c游戏内注册功能已禁用！'
+  name_taken: '&c该用户名已被注册！'
+
+# 注册密码错误
+password:
+  match_error: '&c两次输入的密码不一致，请检查！'
+  name_in_password: '&c不能使用用户名作为密码，请重新设置...'
+  unsafe_password: '&c密码安全性不足，请重新设置...'
+  forbidden_characters: '&4密码包含非法字符。允许的字符: %valid_chars'
+  wrong_length: '&c密码长度不符合要求！请重新设置！'
+
+# 登录相关
+login:
+  command_usage: '&c用法: /login <密码>'
+  wrong_password: '&c密码错误！'
+  success: '&2登录成功！'
+  login_request: '&c请使用指令登录: /login <密码>'
+  timeout_error: '&4登录超时，你已被踢出服务器，请重试！'
+
+# 错误提示
+error:
+  unregistered_user: '&c该用户未注册！'
+  denied_command: '&c使用此命令前需要先验证身份！'
+  denied_chat: '&c发言前需要先验证身份！'
+  not_logged_in: '&c你尚未登录！'
+  tempban_max_logins: '&c由于多次登录失败，你已被临时封禁'
+  max_registration: '&c你的IP已达到最大注册数量限制(%reg_count/%max_acc %reg_names)！'
+  no_permission: '&4你没有执行此操作的权限！'
+  unexpected_error: '&4发生未知错误，请联系管理员！'
+  kick_for_vip: '&3VIP玩家加入时服务器已满！'
+  logged_in: '&c你已经登录了！'
+  kick_unresolved_hostname: '&c错误：无法解析玩家主机名！'
+
+# 反机器人
+antibot:
+  kick_antibot: '反机器人保护模式已启用！请等待几分钟后再尝试加入'
+  auto_enabled: '&4[反机器人服务] 由于大量连接尝试，已自动启用反机器人保护！'
+  auto_disabled: '&2[反机器人服务] 反机器人保护在%m分钟后已自动关闭！'
+
+# 注销账号
+unregister:
+  success: '&c账号注销成功！'
+  command_usage: '&c用法: /unregister <密码>'
+
+# 其他消息
+misc:
+  accounts_owned_self: '你拥有%count个账号:'
+  accounts_owned_other: '玩家%name拥有%count个账号:'
+  account_not_activated: '&c你的账号尚未激活，请检查邮箱！'
+  password_changed: '&2密码修改成功！'
+  logout: '&2登出成功！'
+  reload: '&2配置和数据库已重新加载！'
+  usage_change_password: '&c用法: /changepassword <旧密码> <新密码>'
+
+# 会话消息
+session:
+  invalid_session: '&cIP地址变更导致会话失效！'
+  valid_session: '&2通过会话恢复自动登录'
+
+# 加入服务器时的验证
+on_join_validation:
+  name_length: '&4用户名长度不符合要求！'
+  characters_in_name: '&4用户名包含非法字符。允许的字符: %valid_chars'
+  country_banned: '&4你所在的国家/地区已被封禁！'
+  not_owner_error: '你不是这个账号的主人，请使用其他用户名！'
+  kick_full_server: '&4服务器已满，请稍后再试！'
+  same_nick_online: '&4相同用户名的玩家已在游戏中！'
+  invalid_name_case: '请使用正确的大小写格式登录: %valid，而不是%invalid'
+  same_ip_online: '相同IP的玩家已在游戏中！'
+  quick_command: '你执行命令太快了！请重新加入服务器并等待片刻再使用命令'
+
+# 邮箱相关
+email:
+  usage_email_add: '&c用法: /email add <邮箱> <确认邮箱>'
+  usage_email_change: '&c用法: /email change <旧邮箱> <新邮箱>'
+  new_email_invalid: '&c新邮箱无效，请重试！'
+  old_email_invalid: '&c旧邮箱无效，请重试！'
+  invalid: '&c邮箱地址无效，请重试！'
+  added: '&2邮箱地址添加成功！'
+  request_confirmation: '&c请验证你的邮箱地址！'
+  changed: '&2邮箱地址修改成功！'
+  email_show: '&2你当前的邮箱地址是: &f%email'
+  incomplete_settings: '错误：邮件发送所需的设置不完整，请联系管理员'
+  already_used: '&4该邮箱地址已被使用'
+  send_failure: '邮件发送失败，请联系管理员'
+  no_email_for_account: '&2该账号未绑定邮箱地址'
+  add_email_request: '&3请使用指令绑定邮箱: /email add <你的邮箱> <确认邮箱>'
+  change_password_expired: '你已无法通过此命令修改密码'
+  email_cooldown_error: '&c邮件发送过于频繁，请等待%time后再试'
+  add_not_allowed: '&c不允许添加邮箱'
+  change_not_allowed: '&c不允许修改邮箱'
+
+# 密码找回
+recovery:
+  forgot_password_hint: '&3忘记密码？请使用指令: /email recovery <你的邮箱>'
+  command_usage: '&c用法: /email recovery <邮箱>'
+  email_sent: '&2找回邮件已发送，请检查邮箱！'
+  code:
+    code_sent: '密码重置验证码已发送至你的邮箱'
+    incorrect: '验证码错误！你还有%count次尝试机会'
+    tries_exceeded: '你已超过最大尝试次数，请使用"/email recovery [邮箱]"获取新验证码'
+    correct: '验证码正确！'
+    change_password: '请使用指令/email setpassword <新密码>立即修改密码'
+
+# 验证码
+captcha:
+  usage_captcha: '&3请使用指令完成验证码验证: /captcha %captcha_code'
+  wrong_captcha: '&c验证码错误，请输入"/captcha %captcha_code"！'
+  valid_captcha: '&2验证码验证通过！'
+  captcha_for_registration: '注册前需完成验证码验证，请使用指令: /captcha %captcha_code'
+  register_captcha_valid: '&2验证码正确！现在可以使用/register注册了'
+
+# 验证码系统
+verification:
+  code_required: '&3此敏感操作需要邮箱验证！请检查邮箱并按提示操作'
+  command_usage: '&c用法: /verification <验证码>'
+  incorrect_code: '&c验证码错误，请输入"/verification <验证码>"，使用邮箱收到的验证码'
+  success: '&2身份验证成功！当前会话中可执行所有敏感命令！'
+  already_verified: '&2你已通过验证，当前会话中可执行所有敏感命令！'
+  code_expired: '&3验证码已过期！请重新执行敏感命令获取新验证码！'
+  email_needed: '&3进行身份验证需要先绑定邮箱！'
+
+# 双重验证
+two_factor:
+  code_created: '&2你的双重验证密钥是%code，可通过此链接扫描二维码 %url'
+  confirmation_required: '请使用/2fa confirm <验证码>确认你的密钥'
+  code_required: '请输入双重验证码: /2fa code <验证码>'
+  already_enabled: '你的账号已启用双重验证！'
+  enable_error_no_code: '未生成双重验证密钥或已过期，请使用/2fa add'
+  enable_success: '双重验证启用成功'
+  enable_error_wrong_code: '验证码错误或已过期，请使用/2fa add'
+  not_enabled_error: '你的账号未启用双重验证，请使用/2fa add'
+  removed_success: '双重验证已移除'
+  invalid_code: '验证码无效！'
+
+# 时间单位
+time:
+  second: '秒'
+  seconds: '秒'
+  minute: '分钟'
+  minutes: '分钟'
+  hour: '小时'
+  hours: '小时'
+  day: '天'
+  days: '天'

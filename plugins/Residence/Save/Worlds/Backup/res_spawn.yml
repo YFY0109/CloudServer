@@ -1,0 +1,56 @@
+Messages:
+  1:
+    LeaveMessage: 正在离开%residence
+    EnterMessage: 欢迎%player来到%owner的领地%residence
+Flags:
+  1:
+    container: true
+    ignite: true
+    move: true
+    harvest: true
+    shear: true
+    use: true
+    destroy: true
+    animalkilling: true
+    trade: true
+    mobkilling: true
+    build: true
+    vehicledestroy: true
+    leash: true
+  2:
+    container: false
+    ignite: false
+    damage: true
+    harvest: false
+    shear: false
+    firespread: false
+    use: false
+    destroy: false
+    pvp: false
+    sun: true
+    animalkilling: false
+    hook: false
+    build: false
+    explode: false
+    enchant: true
+    vehicledestroy: false
+    skulk: false
+    tnt: false
+    leash: false
+    pistonprotection: true
+    tp: true
+    creeper: false
+Residences:
+  spawn:
+    TPLoc: -66.5:99.0:30.5:0.0:0.0
+    Messages: 1
+    BlockSellPrice: 0.75
+    Permissions:
+      PlayerFlags:
+        eaefa64a-b67a-333c-bd6d-dab28f5874bd: 1
+      AreaFlags: 2
+      OwnerUUID: eaefa64a-b67a-333c-bd6d-dab28f5874bd
+      OwnerLastKnownName: baiYunMieAwa
+    CreatedOn: 1754121519047
+    Areas:
+      main: -228:-63:-130:94:240:190

@@ -1,0 +1,179 @@
+# 这些组对应你在'<worldname>.yml'中定义的权限组
+Groups:
+    Default: #组名，不要删除这个组
+       # 关于玩家可以定义的领地区域信息
+       # 取消下方注释可将此配置镜像到其他组
+       #Mirror:
+         #- 'group1'
+         #- 'group2'
+       Residence:
+           # 决定该组是否可以创建领地。此选项可通过权限节点'residence.create'覆盖
+           CanCreate: true
+           # 玩家可拥有的最大领地数量
+           MaxResidences: 5
+           # 单个领地可包含的最大物理区域数
+           MaxAreasPerResidence: 2
+           # 领地东西方向(X)的最大方块数
+           MaxEastWest: 1000
+           # (可选) 领地东西方向(X)的最小方块数
+           MinEastWest: 1
+           # 领地南北方向(Z)的最大方块数
+           MaxNorthSouth: 1000
+           # (可选) 领地南北方向(Z)的最小方块数
+           MinNorthSouth: 1
+           # 领地垂直方向(Y)的最大方块数
+           MaxUpDown: 1000
+           # (可选) 领地垂直方向(Y)的最小方块数
+           MinUpDown: 1
+           # 该组允许保护的最低海拔高度
+           MinHeight: -64
+           # 该组允许保护的最高海拔高度
+           MaxHeight: 320
+            # 当前区域可拥有的最大子区域数量
+           MaxSubzonesInArea: 3
+            # 子区域可嵌套的最大深度
+            # 例如：领地内的子区域中的子区域深度为2
+            # 设为0则禁用子区域
+           SubzoneDepth: 3
+           # (可选) 领地子区域东西方向(X)的最大方块数
+           SubzoneMaxEastWest: 1000
+           # (可选) 领地子区域东西方向(X)的最小方块数
+           SubzoneMinEastWest: 1
+           # (可选) 领地子区域南北方向(Z)的最大方块数
+           SubzoneMaxNorthSouth: 1000
+           # (可选) 领地子区域南北方向(Z)的最小方块数
+           SubzoneMinNorthSouth: 1
+           # (可选) 领地子区域垂直方向(Y)的最大方块数
+           SubzoneMaxUpDown: 1000
+           # (可选) 领地子区域垂直方向(Y)的最小方块数
+           SubzoneMinUpDown: 1
+           # 是否允许传送到领地
+           CanTeleport: true
+           # 允许/禁止使用/res unstuck命令，用于在被卡在领地时脱困
+           Unstuck: true
+           # 允许/禁止使用/res kick命令踢出领地内的玩家
+           Kick: False
+           # 允许/禁止使用/res select命令，若禁用则只能使用选择工具
+           SelectCommandAccess: true
+           # 允许/禁止该组访问其所属领地的黑名单/忽略列表
+           ItemListAccess: true
+       # 与领地进出消息相关的选项
+       Messaging:
+           # 玩家是否可以更改领地的进出消息
+           CanChange: true
+           # 该组玩家创建新领地时默认的进入消息
+           # 使用%zone可仅显示当前领地名称（不包含父级区域名称）
+           # 留空则禁用该消息
+           DefaultEnter: "欢迎%player来到%owner的领地%residence"
+           # 该组玩家创建新领地时默认的离开消息
+           # %player 包含玩家名称
+           # %playerDisplay 包含玩家显示名称
+           # %owner 包含领地所有者名称
+           # %residence 包含领地名称
+           # %zone 仅显示当前领地名称（不包含父级区域名称）
+           # 
+           # 留空则禁用该消息
+           DefaultLeave: "正在离开%residence"
+       # 与租赁系统相关的选项
+       Lease:
+          # 允许的最大租赁天数
+          MaxDays: 16
+          # 执行/res lease renew命令后增加的租赁天数
+          RenewIncrement: 14
+       #与出租系统相关的选项
+       Rent:
+           #决定该组玩家可同时租用的最大领地数量
+           MaxRents: 3
+           #决定该组玩家可同时设置出租的最大领地数量
+           MaxRentables: 3
+           # 决定玩家单次可租赁的最大天数
+           MaxRentDays: 31
+       # 与领地经济系统相关的选项
+       Economy:
+          # 该组玩家是否可以购买其他出售中的领地
+          CanBuy: true
+          # 该组玩家是否可以出售自己的领地
+          CanSell: true
+          # 购买领地时是否忽略领地大小/数量限制
+          IgnoreLimits: true
+          # 新建领地或扩展区域时每方块的成本
+          BuyCost: 1
+          # 移除领地时玩家每方块可获得的返还金额
+          # 注意：需在配置文件中启用ResMoneyBack才能生效
+          SellCost: 0.75
+          # 续租领地时每方块的成本（若租赁系统已启用）
+          RenewCost: 0.1
+       # 权限标志检查顺序：
+       # 1: 玩家
+       # 2: 组
+       # 3: 所有者
+       # 4: 若其他均未定义，则恢复默认值（通常为true）
+       # 权限标志默认为false
+       # 这些标志设置会覆盖全局设置
+       Flags:
+          # 特别允许/禁止该组更改特定标志
+          Permission:
+               #build: true
+          # 指定该组玩家创建领地时应用的默认标志
+          Default:
+              #build: true
+          # 指定创建者在领地创建时获得的默认标志
+          CreatorDefault:
+              #build: true
+          # 指定创建时为其他组设置的默认标志
+          GroupDefault:
+               #default: #组名
+                   #build: false
+          #这些标志专门应用于该组玩家在领地外时的权限
+          #这些标志将覆盖顶部Global部分的设置
+          World:
+                Global: #这些标志将应用于所有世界
+                     #build: false
+                WorldNameHere: #也可为每个世界单独设置
+                     #build: false
+    NextGroup: #组名，玩家需拥有residence.group.nextgroup权限节点才能访问此领地组
+       Residence:
+           CanCreate: true
+           MaxResidences: 4
+           MaxAreasPerResidence: 2
+           MaxEastWest: 1000
+           MaxNorthSouth: 1000
+           MaxUpDown: 1000
+           MinHeight: -64
+           MaxHeight: 320
+           SubzoneDepth: 3
+           CanTeleport: true
+           Unstuck: true
+           Kick: true
+           SelectCommandAccess: true
+           ItemListAccess: true
+       Messaging:
+           CanChange: true
+           DefaultEnter: "欢迎%player来到%owner的领地%residence"
+           DefaultLeave: "正在离开%residence"
+       Lease:
+          MaxDays: 16
+          RenewIncrement: 14
+       Rent:
+           MaxRents: 3
+           MaxRentables: 3
+           MaxRentDays: 31
+       Economy:
+          # 该组玩家是否可以购买其他出售中的领地
+          CanBuy: true
+          # 该组玩家是否可以出售自己的领地
+          CanSell: true
+          # 购买领地时是否忽略领地大小/数量限制
+          IgnoreLimits: true
+          # 新建领地或扩展区域时每方块的成本
+          BuyCost: 1
+          # 移除领地时玩家每方块可获得的返还金额
+          # 注意：需在配置文件中启用ResMoneyBack才能生效
+          SellCost: 0.75
+          # 续租领地时每方块的成本（若租赁系统已启用）
+          RenewCost: 0.1
+
+# 可在此手动指定玩家所属组，这会覆盖其权限组设置
+GroupAssignments:
+     bekvon: default
+     player: default

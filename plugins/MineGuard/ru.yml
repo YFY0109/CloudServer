@@ -1,0 +1,108 @@
+# Ban screen (Внешний вид)
+banScreen: |-
+  §f[§bMineGuard§f]
+  
+  §7Вы были §cнавсегда забанены§7 на сервере.
+  
+  §7Мы подозреваем, что вы используете§c модификации клиента (стороннее ПО).
+
+# Kick screen (Внешний вид)
+kickScreen: |-
+  §f[§bMineGuard§f]
+
+  §7Вы были кикнуты с сервера.
+
+  §7Мы подозреваем, что вы используете§c модификации клиента (стороннее ПО).
+
+# Brand kick screen (Внешний вид)
+brandKickScreen: |-
+  §f[§bMineGuard§f]
+  
+  §7Соединение прервано
+  
+  §cЭтот клиент Minecraft не разрешён.
+
+# Сообщение, когда игрок получил флаг (Внешний вид)
+flagMessage: "§9%player%§f провалил проверку§b %specificCheck%§f (§9%checkArt%§f) Флаги:§c %flags%"
+
+# Если у игрока удалён флаг
+flagRemoveMessage: "§9%player%§f удалил один флаг"
+
+# Сообщение, если игрок подозрительный (Внешний вид)
+staffMessage: "Игрок§9 %player%§f выглядит подозрительно."
+
+# Сообщение при бане игрока
+playerBanMessage: "Игрок§9 %player%§f был §cнавсегда забанен§f на сервере."
+
+# Сообщение при разбане игрока
+playerUnBanMessage: "Игрок§9 %player%§f был §aразбанен§f на сервере."
+
+# Сообщение при кике игрока
+playerKickMessage: "Игрок§9 %player%§f был кикнут с сервера."
+
+# Сообщение (Внешний вид)
+playerMessage: "§cПожалуйста, отключите все модификации клиента (стороннее ПО)."
+
+# Сообщения команд MineGuard
+noArgsMessage: "§cПожалуйста, используйте§9 /MineGuard Help§f."
+configReloaded: "§aКонфигурация успешно загружена."
+noSuspects: "§cПодозрительных игроков не найдено."
+openingMenu: "§bОткрытие меню..."
+onlyPlayers: "§cТолько игроки могут использовать эту команду."
+playerOffline: "§cИгрок оффлайн."
+alreadyBanned: "§cЭтот игрок уже забанен."
+notBanned: "§cЭтот игрок не забанен."
+notSuspicious: "§cЭтот игрок не помечен как подозрительный."
+noPermission: "§cУ вас нет разрешения."
+staffAlertsDisabled: "§cОшибка. Оповещения для персонала отключены."
+debugEnabled: "§aТеперь вы будете видеть уведомления о флагах."
+debugDisabled: "§cВы больше не будете видеть уведомления о флагах."
+invalidUUID: "§7Неверный UUID: §c%uuid%"
+suspicionRemoved: "§fВы удалили подозрение для§9 %player%§f."
+suspiciousPlayersTitle: "§c§lПодозрительные игроки:"
+playerStatusSuspicious: "§fСтатус игрока:§c подозрительный"
+playerStatusNormal: "§fСтатус игрока:§a нормальный"
+playerInfoTitle: "§b§lИнформация для §9§l%player%"
+playerInfoPing: "§fПинг§f: §b%ping%мс"
+playerInfoClient: "§fКлиент§f: §b%brand%"
+playerInfoClientNone: "§fКлиент§f: §c-"
+playerInfoLocation: "§fЛокация§f: §b%world% §f(X: §b%x%§f, Y: §b%y%§f, Z: §b%z%§f)"
+playerInfoFlags: "§fФлаги§f: §c%flags%"
+playerInfoLastFlag: "§fПоследний флаг§f: §c%date%"
+
+# Помощь по командам MineGuard
+helpMenu: "§9/MineGuard Menu§f »§b Открыть настройки"
+helpDebug: "§9/MineGuard Debug§f »§b Показать игроков с флагами"
+helpInfo: "§9/MineGuard Info§f »§b Показать информацию об игроке"
+helpBan: "§9/MineGuard Ban§f »§b Забанить игрока"
+helpUnban: "§9/MineGuard UnBan§f »§b Разбанить игрока"
+helpList: "§9/MineGuard List§f »§b Показать подозрительных игроков"
+helpListRemove: "§9-> /MineGuard List Remove <Игрок>§f »§b Удалить игрока из списка подозрительных"
+
+# GUI
+staffKickedBrandMessage: "§9%player%§7 был кикнут с сервера из-за клиента (§b%brand%§7)."
+queueEnabled: "§fВы §aвключили§f систему§9 очереди§f."
+queueDisabled: "§fВы §cотключили§f систему§9 очереди§f."
+movementCancelEnabled: "Вы §aвключили§f сброс позиции."
+movementCancelDisabled: "Вы §cотключили§f сброс позиции."
+punishmentSet: "Наказание установлено: §9%punishment%§a."
+flagCountIncreased: "§9Количество флагов§a увеличено§f."
+flagCountDecreased: "§9Количество флагов§c уменьшено§f."
+flagCountMinReached: "§cДостигнуто минимальное количество флагов."
+checkDisabled: "Проверка §9%checkName%§c отключена."
+checkEnabled: "Проверка §9%checkName%§a включена."
+allChecksDeactivated: "§cВы отключили все проверки."
+allChecksActivated: "§aВы включили все проверки."
+staffNotificationsEnabled: "§fУведомления в командном чате §aвключены§f."
+staffNotificationsDisabled: "§fУведомления в командном чате §cотключены§f."
+playerNotificationsEnabled: "§fУведомления в чате игроков §aвключены§f."
+playerNotificationsDisabled: "§fУведомления в чате игроков §cотключены§f."
+staffSoundsEnabled: "§fЗвуки для персонала §aвключены§f."
+staffSoundsDisabled: "§fЗвуки для персонала §cотключены§f."
+playerSoundsEnabled: "§fЗвуки для игроков §aвключены§f."
+playerSoundsDisabled: "§fЗвуки для игроков §cотключены§f."
+teamNotificationsDisabled: "§cНевозможно изменить. Уведомления команды отключены."
+playerNotificationsDisabledMsg: "§cНевозможно изменить. Уведомления игроков отключены."
+
+reviewMessage: "§e§lНажми на меня, если хочешь оставить отзыв о MineGuard на SpigotMC. Мне будет очень приятно."
+discordMessage: "§e§lНажми на меня, если хочешь присоединиться к Discord MineGuard."

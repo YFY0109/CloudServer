@@ -1,0 +1,12 @@
+command.item.exception: "Take the item in your hand"
+command.tag.exception: "Specify the tag in the command argument"
+command.custommodeldata.success: "The tag was successfully installed"
+
+# Should I display the new tag state after the command?
+command.display.final.result: false
+command.info.none.items: "The item does not have a customModelDate"
+
+command.info.log.strings: "Strings: "
+command.info.log.floats: "Floats: "
+command.info.log.flags: "Flags: "
+command.info.log.colors: "Colors: "

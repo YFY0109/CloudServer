@@ -1,0 +1,108 @@
+# Ban screen (appearance)
+banScreen: |-
+  §f[§bMineGuard§f]
+  
+  §7You have been §cpermanently§7 banned from the network
+  
+  §7We suspect you are using§c client modifications (3rd-party software)
+
+# Kick screen (appearance)
+kickScreen: |-
+  §f[§bMineGuard§f]
+
+  §7You have been kicked from the network
+
+  §7We suspect you are using§c client modifications (3rd-party software)
+
+# Brand kick screen (appearance)
+brandKickScreen: |-
+  §f[§bMineGuard§f]
+  
+  §7Connection failed
+  
+  §cThis Minecraft client is not allowed
+
+# Message when player is flagged (appearance)
+flagMessage: "§9%player%§f failed§b %specificCheck%§f (§9%checkArt%§f) Flags:§c %flags%"
+
+# If the player gets a flag removed
+flagRemoveMessage: "§9%player%§f removed one flag"
+
+# Message if a player is suspicious (appearance)
+staffMessage: "Player§9 %player%§f appears suspicious."
+
+# Message when a player is banned
+playerBanMessage: "Player§9 %player%§f has been §cpermanently§f banned from the network."
+
+# Message when a player is unbanned
+playerUnBanMessage: "Player§9 %player%§f was §aunbanned§f on the server."
+
+# Message when a player is kicked
+playerKickMessage: "Player§9 %player%§f has been kicked from the network."
+
+# Message (appearance)
+playerMessage: "§cPlease disable any client modifications (3rd-party software)."
+
+# MineGuard command messages
+noArgsMessage: "§cPlease use§9 /MineGuard Help§f."
+configReloaded: "§aYou have successfully loaded the config."
+noSuspects: "§cNo suspicious players found."
+openingMenu: "§bOpening menu..."
+onlyPlayers: "§cOnly players can use this command."
+playerOffline: "§cPlayer is offline."
+alreadyBanned: "§cThis player is already banned."
+notBanned: "§cThis player is not banned."
+notSuspicious: "§cThis player is not marked as suspicious."
+noPermission: "§cYou do not have permission."
+staffAlertsDisabled: "§cFailed. Staff alerts are disabled."
+debugEnabled: "§aYou will now see flag notifications."
+debugDisabled: "§cYou will no longer see flag notifications."
+invalidUUID: "§7Invalid UUID entry: §c%uuid%"
+suspicionRemoved: "§fYou removed the suspicious entry for§9 %player%§a."
+suspiciousPlayersTitle: "§c§lSuspicious Players:"
+playerStatusSuspicious: "§fPlayer Status:§c suspicious"
+playerStatusNormal: "§fPlayer Status:§a normal"
+playerInfoTitle: "§b§lInformation for §9§l%player%"
+playerInfoPing: "§fPing§f: §b%ping%ms"
+playerInfoClient: "§fClient Brand§f: §b%brand%"
+playerInfoClientNone: "§fClient Brand§f: §c-"
+playerInfoLocation: "§fLocation§f: §b%world% §f(X: §b%x%§f, Y: §b%y%§f, Z: §b%z%§f)"
+playerInfoFlags: "§fFlags§f: §c%flags%"
+playerInfoLastFlag: "§fLast Flag§f: §c%date%"
+
+# MineGuard help command entries
+helpMenu: "§9/MineGuard Menu§f »§b Opens the settings"
+helpDebug: "§9/MineGuard Debug§f »§b Shows flagged players"
+helpInfo: "§9/MineGuard Info§f »§b Shows you information about a player"
+helpBan: "§9/MineGuard Ban§f »§b Permanently ban a player through the MineGuard ban system"
+helpUnban: "§9/MineGuard UnBan§f »§b Unban a player from the MineGuard ban system"
+helpList: "§9/MineGuard List§f »§b Shows suspicious players"
+helpListRemove: "§9-> /MineGuard List Remove <Player>§f »§b Remove a player from the suspect list"
+
+# GUI
+staffKickedBrandMessage: "§9%player%§7 was kicked from the server because of his client-brand (§b%brand%§7)."
+queueEnabled: "§fYou have §aenabled§f the§9 queue system§f."
+queueDisabled: "§fYou have §cdisabled§f the§9 queue system§f."
+movementCancelEnabled: "You have §aenabled§f position reset."
+movementCancelDisabled: "You have §cdisabled§f position reset."
+punishmentSet: "Punishment set to §9%punishment%§a."
+flagCountIncreased: "§9Flag count§a increased§f."
+flagCountDecreased: "§9Flag count§c decreased§f."
+flagCountMinReached: "§cMinimum flag count reached."
+checkDisabled: "Check §9%checkName%§c disabled."
+checkEnabled: "Check §9%checkName%§a enabled."
+allChecksDeactivated: "§cYou have deactivated all checks."
+allChecksActivated: "§aYou have activated all checks."
+staffNotificationsEnabled: "§fTeam chat notifications §aenabled§f."
+staffNotificationsDisabled: "§fTeam chat notifications §cdisabled§f."
+playerNotificationsEnabled: "§fPlayer chat notifications §aenabled§f."
+playerNotificationsDisabled: "§fPlayer chat notifications §cdisabled§f."
+staffSoundsEnabled: "§fTeam sounds §aenabled§f."
+staffSoundsDisabled: "§fTeam sounds §cdisabled§f."
+playerSoundsEnabled: "§fPlayer sounds §aenabled§f."
+playerSoundsDisabled: "§fPlayer sounds §cdisabled§f."
+teamNotificationsDisabled: "§cCannot change this setting. Team notifications are disabled."
+playerNotificationsDisabledMsg: "§cCannot change this setting. Player notifications are disabled."
+
+reviewMessage: "§e§lClick me if you want to review MineGuard on SpigotMC. I would be very happy."
+discordMessage: "§e§lClick me if you want to join the MineGuard Discord."

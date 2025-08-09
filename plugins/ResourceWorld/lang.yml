@@ -1,0 +1,33 @@
+# +----------------------------------------------------------------------------------------------+
+# |                                                                                              |
+# |                                         Resource World                                       |
+# |                                                                                              |
+# |                               Discord: https://discord.gg/m7j2Y9H                            |
+# |                                                                                              |
+# |                                           Author: Nik                                        |
+# |                                                                                              |
+# +----------------------------------------------------------------------------------------------+
+
+prefix: '&a&l[&2资源世界&a&l]&f&l: '
+update_found: '&a发现更新，当前版本 &f%current%&a，新版本 &f%new%'
+disabled_command: '&c抱歉，你不能在这个世界使用该命令！'
+resetting_the_world: '&f正在清理资源世界，可能会导致卡顿！'
+resetting_the_nether: '&f正在清理下界世界，可能会导致卡顿！'
+resetting_the_end: '&f正在清理末地世界，可能会导致卡顿！'
+world_has_been_reset: '&f资源世界已重置！'
+nether_has_been_reset: '&f下界世界已重置！'
+end_has_been_reset: '&f末地世界已重置！'
+console_message: '&f&l该命令无法通过控制台执行 :('
+no_perm: '&c你没有执行该命令的权限！'
+cooldown_message: '&c你可以在 %seconds% 秒后再次传送到资源世界。'
+cooldown_spawn: '&c你可以在 %seconds% 秒后再次传送到出生点。'
+reloaded: '&f你已成功重新加载插件！'
+teleport_delay: '&a将在 %seconds% 秒后传送到资源世界。'
+gui_name: '&2&l资源世界菜单'
+worlds_gui_name: '&2&l重置资源世界'
+teleported_message: '&f你已被传送回出生点！'
+not_exist: '&c资源世界目前正在维护中，请稍后再试！'
+teleport_paid: '&a已从你的余额中扣除 &f%price% &a。'
+teleport_error: '&c你的钱不够传送到资源世界。'
+teleported_players: '&a已将所有玩家传送回出生点！'
+update_not_found: '&f&l你正在使用最新版本 &c&l<3'

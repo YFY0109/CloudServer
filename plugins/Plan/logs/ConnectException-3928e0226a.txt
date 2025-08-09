@@ -1,0 +1,42 @@
+3928e0226a - Last occurred: 2025-08-06 Occurrences: 1
+---- Context 1 ----
+Plan v5.6 build 2965
+Leaves 1.21.8-83-ea91106 (MC: 1.21.8)
+Server v1.21.8-R0.1-SNAPSHOT
+
+Allow Plan to check for updates from Github/versions.txt or disable update check.
+Version information could not be loaded from Github/versions.txt
+
+---- Stacktrace ----
+java.net.ConnectException: Connection timed out
+   java.base/sun.nio.ch.Net.connect0(Native Method)
+   java.base/sun.nio.ch.Net.connect(Net.java:589)
+   java.base/sun.nio.ch.Net.connect(Net.java:578)
+   java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583)
+   java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+   java.base/java.net.Socket.connect(Socket.java:752)
+   java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+   java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:181)
+   java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:183)
+   java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+   java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+   java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+   java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377)
+   java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+   java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1243)
+   java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1129)
+   java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+   java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1691)
+   java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1615)
+   java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223)
+   java.base/java.net.URL.openStream(URL.java:1325)
+   Plan.jar//com.djrapitops.plan.version.VersionInfoLoader.load(VersionInfoLoader.java:51)
+   Plan.jar//com.djrapitops.plan.version.VersionChecker.loadVersionInfo(VersionChecker.java:77)
+   Plan.jar//com.djrapitops.plan.version.VersionChecker.checkForUpdates(VersionChecker.java:88)
+   Plan.jar//net.playeranalytics.plugin.scheduling.UnscheduledBukkitTask.run(UnscheduledBukkitTask.java:22)
+   org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+   org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+   com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+   java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+   java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+   java.base/java.lang.Thread.run(Thread.java:1570)
